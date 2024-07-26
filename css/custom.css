@@ -59,6 +59,11 @@
     vertical-align: top;
     height: auto !important;
     font-size: 0;
-    margin: 40px 0 !important;
+    margin: 40px 0 ;
     padding:0 20px !important;
+}
+@media screen and (max-width:767px) {
+    .rev_slider .tp-caption.rev_row{
+        margin: 0 !important;
+    }
 }
