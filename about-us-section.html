@@ -8,17 +8,160 @@
     <meta name="description" content="Themeforest Template Polo, html template">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <!-- Document title -->
     <title>Santana Law Group, PLLC | Immigration and Civil Litigation</title>
 	<link rel="icon" href="images/small logo.png" type="image/png">
     <!-- Stylesheets & Fonts -->
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+    <!-- LOAD JQUERY LIBRARY -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <!-- LOADING FONTS AND ICONS -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:500%2C400%2C700" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/fonts/font-awesome/css/font-awesome.css">
+    <!-- REVOLUTION STYLE SHEETS -->
+    <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/css/navigation.css">
+    <script src="https://kit.fontawesome.com/cc00d27b50.js" crossorigin="anonymous"></script>
 
+    <style type="text/css">
+
+.container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl{
+    max-width: 1031px;
+}
+.fs-20{
+    font-size: 20px !important;
+}
+.fw-700{
+    font-weight:700;
+}
+.fs-18{
+    font-size:18px !important;
+}
+.underline{
+    text-decoration:underline;
+}
+
+        .tiny_bullet_slider .tp-bullet:before {
+            content: " ";
+            position: absolute;
+            width: 100%;
+            height: 25px;
+            top: -12px;
+            left: 0px;
+            background: transparent;
+        }
+        .modal-body {
+    font-family: sans-serif !important;
+}
+.rev_slider .tp-caption.rev_row {
+    display: table;
+    table-layout: fixed;
+    vertical-align: top;
+    height: auto !important;
+    font-size: 0;
+    margin: 40px 0 !important;
+    padding:0 20px !important;
+}
+    </style>
+    <style type="text/css">
+        .tp-thumbs-inner-wrapper{
+            height:534px !important;
+            overflow-y: auto !important;
+        }
+        .tp-tab-mask, .tp-thumb-mask {
+    box-sizing: border-box !important;
+    max-height: 540px !important;
+    overflow-y: auto !important;
+}
+     
+       .border-bottom-0{
+        border-bottom: 0 !important;
+       }
+       #header.header-sticky.sticky-active .header-inner, #header.header-sticky.sticky-active #header-wrap{
+           background-color: #334F6E;
+           position: relative !important;
+           top: 38px !important;
+           color:white !important;
+    } 
+    .dark #header .header-inner, .dark #header #header-wrap, #header.dark .header-inner, #header.dark #header-wrap{
+        background-color: #334F6E;
+    }
+        .bullet-bar.tp-bullets {}
+        
+        .bullet-bar.tp-bullets:before {
+            content: " ";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            padding: 10px;
+            margin-left: -10px;
+            margin-top: -10px;
+            box-sizing: content-box
+        }
+        /* .tp-parallax-wrap {
+    top: 0 !important;
+} */
+        .bullet-bar .tp-bullet {
+            width: 60px;
+            height: 3px;
+            position: absolute;
+            background: #aaa;
+            background: rgba(204, 204, 204, 0.5);
+            cursor: pointer;
+            box-sizing: content-box
+        }
+        
+        .bullet-bar .tp-bullet:hover,
+        .bullet-bar .tp-bullet.selected {
+            background: rgba(204, 204, 204, 1)
+        }
+        
+        .bullet-bar .tp-bullet-image {}
+        
+        .bullet-bar .tp-bullet-title {}
+
+        .tp-thumb-mask{
+            height:100% !important;
+        }
+        .modal.show .modal-dialog {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    max-width: 80% !important;
+    min-width:80% !important;
+    width:80% !important;
+}
+#slide-1653-layer-2 {
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.modal-dialog{
+    max-width:80% !important;
+}
+    </style>
+    <!-- REVOLUTION JS FILES -->
+
+    <script type="text/javascript" src="plugins/slider-revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="plugins/slider-revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLICEY ADD-ON FILES -->
+    <script type='text/javascript' src='plugins/slider-revolution/revolution-addons/slicey/js/revolution.addon.slicey.min.js?ver=1.0.0'></script>
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.video.min.js"></script>
 </head>
-
 <body>
     <!-- Body Inner -->
     <div class="body-inner">
@@ -247,6 +390,7 @@
                         <h1 class="text-lg" style="color: #334F6E;">BLOG</h1>
                         <h3 ><i style="font-family: sans-serif !important;">Sagittis ante posuere</i></h3>
                     </div>
+                    
                     <div class="col-lg-9">
                         <div id="blog">
                             <!-- Blog post-->
@@ -331,389 +475,222 @@
             </div>
         </section>
 
-        
-        
-        <!-- Our numbers -->
-        <section class="p-t-100 p-b-100" data-bg-parallax="homepages/corporate-v7/images/parallax/4.jpg">
-            <div class="bg-overlay"></div>
-            <div class="container xs-text-center sm-text-center text-light">
-                <div class="row">
-                    <div class="col-lg-5 p-b-60">
-                        <h2>Our Numbers & Smoth parallax</h2>
-                        <p class="lead">Nulla varius consequat magna, id molestie ipsum volutpat quis. A true story, that never been told!. Fusce id mi diam, non ornare. Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, id molestie ipsum volutpat quis. facilisis
-                            ut venenatis eu.</p>
-                        <a href="#services" class="btn btn-light btn-outline btn-roundeded">Our Services</a>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="text-center">
-                                    <div class="counter text-lg"> <span data-speed="3000" data-refresh-interval="50" data-to="12416" data-from="600" data-seperator="true"></span> </div>
-                                    <div class="seperator seperator-small"></div>
-                                    <p>LINES OF CODE</p>
+        <div id="featured_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="goodnews-featured" data-source="gallery" style="margin:0px auto;background:#E2E1DA;padding:0px;margin-top:0px;margin-bottom:0px;">
+            <!-- START REVOLUTION SLIDER 5.4.3.1 fullwidth mode -->
+            <div id="featured" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.3.1">
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-908" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="https://revolutioncdn-themepunchgbr.netdna-ssl.com/wp-content/uploads/revslider/gnfeatured/blurbg-2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="6" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+                        <div id="rrzt_908" class="rev_row_zone rev_row_zone_top" style="z-index: 5;">
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption  " id="slide-908-layer-5" data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']" data-y="['top','top','top','top']" data-voffset="['100','100','100','100']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="row" data-columnbreak="2" data-basealign="slide" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-margintop="[250,70,70,70]" data-marginright="[0,0,0,0]" data-marginbottom="[250,60,60,60]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[65,75,50,50]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[65,75,50,50]" style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;">
+                                <!-- LAYER NR. 2 -->
+                                <div class="tp-caption  " id="slide-908-layer-6" data-x="['left','left','left','left']" data-hoffset="['0','100','0','0']" data-y="['top','top','top','top']" data-voffset="['0','100','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="column" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":"+0","speed":750,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-bgopacity="1" data-columnwidth="66.67%" data-verticalalign="bottom" data-margintop="[0,0,0,0]" data-marginright="[15,5,0,0]" data-marginbottom="[0,0,30,30]" data-marginleft="[15,5,0,0]" data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; background: url('images/desk2.webp') no-repeat center center; background-size: cover; width: 100%;">
+                                    <!-- LAYER NR. 3 -->
+                                    <div class="tp-caption   tp-resizeme" id="slide-908-layer-11" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="100%" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-margintop="[0,200,150,150]" data-marginright="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['center','center','center','center']" data-paddingtop="[40,40,40,40]" data-paddingright="[20,20,20,20]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[20,20,20,20]" style="z-index: 8; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 15px; line-height: 15px; font-weight: 600; color: white; letter-spacing: 2px; margin-bottom: 20px !important; display: inline-block;font-family:Poppins;">TRAVEL </div>
+                                    <!-- LAYER NR. 4 -->
+                                  <a href="#" class="btn btn-outline btn-light mb-4" ><span>learn more about your needs</span></a>
+                                     
                                 </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="text-center">
-                                    <div class="counter text-lg"> <span data-speed="4500" data-refresh-interval="23" data-to="365" data-from="100" data-seperator="true"></span> </div>
-                                    <div class="seperator seperator-small"></div>
-                                    <p>CUPS OF COFFEE</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="text-center">
-                                    <div class="counter text-lg"> <span data-speed="3000" data-refresh-interval="12" data-to="114" data-from="50" data-seperator="true"></span> </div>
-                                    <div class="seperator seperator-small"></div>
-                                    <p>FINISHED PROJECTS</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-
-                                <div class="text-center">
-                                    <div class="counter text-lg"> <span data-speed="4550" data-refresh-interval="50" data-to="14825" data-from="48" data-seperator="true"></span> </div>
-                                    <div class="seperator seperator-small"></div>
-                                    <p>SATISFIED CLIENTS</p>
+                                <!-- LAYER NR. 5 -->
+                                <div class="tp-caption  " id="slide-908-layer-7" data-x="['left','left','left','left']" data-hoffset="['370','347','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','321','321']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="column" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":"+0","speed":750,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-bgopacity="1" data-columnwidth="33.33%" data-verticalalign="bottom" data-margintop="[0,0,0,0]" data-marginright="[15,5,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[15,5,0,0]" data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; background: url('https://revolution.themepunch.com/wp-content/') no-repeat center center; background-size: cover; width: 100%;background-color:#334F6E;">
+                                    <!-- LAYER NR. 6 -->
+                                    <div class="tp-caption   tp-resizeme" id="slide-908-layer-13" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','bottom','bottom','bottom']" data-voffset="['0','170','140','120']" data-width="100%" data-height="none" data-whitespace="normal" data-type="text" data-basealign="slide" data-responsive_offset="off" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-margintop="[50,50,50,50]" data-marginright="[0,0,0,0]" data-marginbottom="[20,20,20,20]" data-marginleft="[0,0,0,0]" data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[30,20,30,20]" data-paddingbottom="[5,5,5,5]" data-paddingleft="[30,20,30,20]" style="z-index: 10; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 35px; line-height: 35px; font-weight: 400; color: #E2E1DA; letter-spacing: 0px; display: inline-block;font-family:sans-serif;">Let’s start the conv! </div>
+                                    <!-- LAYER NR. 7 -->
+                                    <a class="tp-caption rev-btn " href="https://api.whatsapp.com" target="_blank" id="slide-908-layer-15" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-lineheight="['36','36','40','40']" data-color="['rgb(255,255,255)','rgb(255,255,255)','rgba(255,255,255,1)','rgba(255,255,255,1)']" data-width="none" data-height="none" data-whitespace="normal" data-type="button" data-actions='' data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(45,48,50);bg:rgb(255,255,255);"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[35,35,35,35]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[35,35,35,35]" style="z-index: 12; white-space: normal; font-size: 17px; line-height: 36px; font-weight: 500; color: #ffffff; letter-spacing: px; display: inline-block;font-family:Poppins;border-color:rgb(255,255,255);border-style:solid;border-width:2px 2px 2px 2px;border-radius:5px 5px 5px 5px;cursor:pointer;text-decoration: none;">Open WhatsApp</a>
+                                    <!-- LAYER NR. 8 -->
+                                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-908-layer-16" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="full" data-height="15" data-whitespace="normal" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13; display: block;"> </div>
+                                    <!-- LAYER NR. 9 -->
+                                    <div class="tp-caption   tp-resizeme" id="slide-908-layer-14" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="none" data-height="none" data-whitespace="normal" data-type="image" data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; display: inline-block;"><img src="images/whatsapp.webp" alt="" data-ww="['100%','100%','100%','85%']" data-hh="" width="800" height="413" data-no-retina> </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </li>
+                </ul>
+                <div style="" class="tp-static-layers">
+                    <!-- LAYER NR. 10 -->
+                    <div class="tp-caption   tp-static-layer" id="slider-322-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['20','50','20','20']" data-fontsize="['15','15','12','12']" data-lineheight="['38','38','28','28']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="off" data-responsive="off" data-startslide="-1" data-endslide="-1" data-frames='[{"delay":0,"speed":750,"sfxcolor":"#ffffff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[2,2,2,2]" data-paddingright="[40,40,30,30]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[42,42,32,32]" style="z-index: 5; white-space: nowrap; font-size: 15px; line-height: 38px; font-weight: 600; color: #E2E1DA; letter-spacing: 2px;font-family:Poppins;background-color:#334F6E;">We want to hear from you! </div>
                 </div>
+                <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
             </div>
-        </section>
-        <!-- end: Our numbers -->
-
-        <!-- Know more -->
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 center text-center">
-                        <h4 class="m-b-10">Know More</h4>
-                        <h2>About Our Company</h2>
-                        <p class="lead m-b-60">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Proin gravida nibh vel velit auctor Aenean sollicitudin, adipisicing elit sed lorem quis bibendum auctor.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <h4 class="m-b-20">We are making progress</h4>
-
-                        <div class="p-progress-bar-container title-up small color">
-                            <div class="p-progress-bar" data-percent="100" data-delay="0" data-type="%">
-                                <div class="progress-title">HTML5</div>
-                            </div>
-                        </div>
-
-                        <div class="p-progress-bar-container title-up small color">
-                            <div class="p-progress-bar" data-percent="94" data-delay="100" data-type="%">
-                                <div class="progress-title">CSS3</div>
-                            </div>
-                        </div>
-
-                        <div class="p-progress-bar-container title-up small color">
-                            <div class="p-progress-bar" data-percent="89" data-delay="200" data-type="%">
-                                <div class="progress-title">JQUERY</div>
-                            </div>
-                        </div>
-
-                        <div class="p-progress-bar-container title-up small color">
-                            <div class="p-progress-bar" data-percent="78" data-delay="300" data-type="%">
-                                <div class="progress-title">MYSQL</div>
-                            </div>
-                        </div>
-
-                        <div class="p-progress-bar-container title-up small color">
-                            <div class="p-progress-bar" data-percent="75" data-delay="400" data-type="%">
-                                <div class="progress-title">PHP</div>
-                            </div>
-                        </div>
-                        <p class="lead">Nulla varius consequat magna, id molestie ipsum volutpat quis. A true story, that never been told!.</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <h4 class="m-b-20">Best services around</h4>
-                        <div class="accordion fancy radius clean">
-                            <div class="ac-item ac-active">
-                                <h5 class="ac-title"><i class="fa fa-rocket"></i>Suscipit laboriosam</h5>
-                                <div class="ac-content ac-active">We’re POLO, a creative agency located in the heart of New York city. A true story, that never been told!.
-                                    <br />
-                                    <br /> Fusce id mi diam, Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora</div>
-                            </div>
-                            <div class="ac-item">
-                                <h5 class="ac-title"><i class="fa fa-heart"></i>Aliquam voluptatem</h5>
-                                <div class="ac-content">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-                                    <br />
-                                    <br /> Fusce id mi diam, Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora</div>
-                            </div>
-                            <div class="ac-item">
-                                <h5 class="ac-title"><i class="fa fa-shopping-cart"></i>Labore et dolore</h5>
-                                <div class="ac-content">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                                    <br />
-                                    <br /> Fusce id mi diam, Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <h4 class="m-b-20">Latest from Blog</h4>
-                        <div class="post-thumbnail-list">
-                            <div class="post-thumbnail-entry">
-                                <img src="homepages/corporate-v7/images/blog/5.jpg" alt="">
-                                <div class="post-thumbnail-content">
-                                    <a href="#">Suspendisse consectetur fringilla</a>
-                                    <span class="post-date"><i class="far fa-clock"></i> 6m ago</span>
-                                    <span class="post-category"><i class="fa fa-tag"></i> Technology</span>
-                                </div>
-                            </div>
-                            <div class="post-thumbnail-entry">
-                                <img src="homepages/corporate-v7/images/blog/6.jpg" alt="">
-                                <div class="post-thumbnail-content">
-                                    <a href="#">Beautiful nature, and rare feathers!</a>
-                                    <span class="post-date"><i class="far fa-clock"></i> 24h ago</span>
-                                    <span class="post-category"><i class="fa fa-tag"></i> Lifestyle</span>
-                                </div>
-                            </div>
-                            <div class="post-thumbnail-entry">
-                                <img src="homepages/corporate-v7/images/blog/7.jpg" alt="">
-                                <div class="post-thumbnail-content">
-                                    <a href="#">The most happiest time of the day!</a>
-                                    <span class="post-date"><i class="far fa-clock"></i> 11h ago</span>
-                                    <span class="post-category"><i class="fa fa-tag"></i> Lifestyle</span>
-                                </div>
-                            </div>
-                            <div class="post-thumbnail-entry">
-                                <img src="homepages/corporate-v7/images/blog/8.jpg" alt="">
-                                <div class="post-thumbnail-content">
-                                    <a href="#">Fringilla Lorem ipsum dolor sit amet</a>
-                                    <span class="post-date"><i class="far fa-clock"></i> 11h ago</span>
-                                    <span class="post-category"><i class="fa fa-tag"></i> Lifestyle</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </section>
-        <!-- end: Know more -->
-
-
-        <!-- Contact -->
-        <section class="p-t-150 p-b-200" style="background-image:url(homepages/branding/images/background-4.png); background-position:71% 22%;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <h2 class="m-b-10">Get in Touch with Us</h2>
-                                <p class="lead">Our Headquarters are in Australia, USA, Europe, Asia, Africa </p>
-                            </div>
-                            <div class="col-lg-6 m-b-30">
-                                <address>
-                                     <strong>Headquarters:</strong><br>
-                                     795 Folsom Ave, Suite 600<br>
-                                     San Francisco, CA 94107<br>
-                                 </address>
-                                <strong>Phone:</strong> (+1) 1234 56789
-                                <br>
-                                <strong>Fax:</strong> (+1) 12 3456 78910
-                                <br>
-                                <strong>Email:</strong> info@inspiro-media.com
-                            </div>
-                            <div class="col-lg-6 m-b-30">
-                                <address>
-                                     <strong>Headquarters:</strong><br>
-                                     795 Folsom Ave, Suite 600<br>
-                                     San Francisco, CA 94107<br>
-                                 </address>
-                                <strong>Phone:</strong> (+1) 1234 56789
-                                <br>
-                                <strong>Fax:</strong> (+1) 12 3456 78910
-                                <br>
-                                <strong>Email:</strong> info@inspiro-media.com
-                            </div>
-                            <div class="col-lg-12 m-b-30">
-                                <h4>We are social</h4>
-                                <div class="social-icons social-icons-light social-icons-colored-hover">
-                                    <ul>
-                                        <li class="social-rss"><a href="#"><i class="fa fa-rss"></i></a></li>
-                                        <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li class="social-vimeo"><a href="#"><i class="fab fa-vimeo"></i></a></li>
-                                        <li class="social-youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                        <li class="social-instagram"><a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li class="social-pinterest"><a href="#"><i class="fab fa-pinterest"></i></a>
-                                        </li>
-                                        <li class="social-gplus"><a href="#"><i class="fab fa-google-plus-g"></i></a>
-                                        </li>
-                                        <li class="social-dribbble"><a href="#"><i class="fab fa-dribbble"></i></a>
-                                        </li>
-                                        <li class="social-skype"><a href="#"><i class="fab fa-skype"></i></a></li>
-                                        <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin"></i></a>
-                                        </li>
-                                        <li class="social-behance"><a href="#"><i class="fab fa-behance"></i></a></li>
-                                        <li class="social-flickr"><a href="#"><i class="fab fa-flickr"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 offset-1">
-                        <form class="widget-contact-form" novalidate action="include/contact-form.php" role="form" method="post">
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="name">Name</label>
-                                    <input type="text" aria-required="true" required name="widget-contact-form-name" class="form-control required name" placeholder="Enter your Name">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="email">Email</label>
-                                    <input type="email" aria-required="true" required name="widget-contact-form-email" class="form-control required email" placeholder="Enter your Email">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea type="text" required name="widget-contact-form-message" rows="8" class="form-control required" placeholder="Enter your Message"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button class="btn btn-light" type="submit" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;Send message</button>
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end: Contact -->
-
-        <!-- Subscribe form -->
-        <section class="background-colored text-center p-t-80  p-b-30">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-5">
-                        <div class="widget widget-newsletter">
-                            <form class="widget-subscribe-form" action="include/subscribe-form.php" role="form" method="post" novalidate="novalidate">
-                                <h3 class="text-light">Subscribe to our Newsletter</h3>
-
-
-
-
-                                <div class="input-group mb-0">
-                                    <span class="input-group-text"><i class="fa fa-paper-plane"></i></span>
-
-                                    <input type="email" required name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
-
-                                    <button type="submit" id="widget-subscribe-submit-button" class="btn btn-light">Subscribe</button>
-
-
-                                </div>
-
-
-
-
-
-                                <small class="text-light">Stay informed on our latest news!</small>
-
-                            </form>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end: Subscribe form -->
-
-        
-        <!-- Footer -->
+        </div>
         <footer id="footer">
             <div class="footer-content">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5">
+                    <div class="row gap-y">
+                        <div class="col-md-6 col-xl-4">
+                            <p>
+                                <a href="#"><img src="images/small logo.png" alt="logo"></a>
+                            </p>
+                            <p>To design is to discover relationships and to make arrangements and rearrangements among these ingredients.</p>
+                        </div>
+                        <div class="col-6 col-md-3 col-xl-2">
+                            <!-- Footer widget area 1 -->
                             <div class="widget">
-
-                                <div class="widget-title">Polo HTML5 Template</div>
-                                <p class="mb-5">Built with love in Fort Worth, Texas, USA<br> All rights reserved. Copyright © 2021. INSPIRO.</p>
-                                <a href="https://themeforest.net/item/polo-responsive-multipurpose-html5-template/13708923"  class="btn btn-inverted" target="_blank">Purchase Now</a>
+                                <h4>COMPANY</h4>
+                                <ul class="list">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Resources</a></li>
+                                </ul>
                             </div>
+                            <!-- end: Footer widget area 1 -->
                         </div>
-                        <div class="col-lg-7">
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <div class="widget">
-                                        <div class="widget-title">Discover</div>
-                                        <ul class="list">
-                                            <li><a href="#">Features</a></li>
-                                            <li><a href="#">Layouts</a></li>
-                                            <li><a href="#">Corporate</a></li>
-                                            <li><a href="#">Updates</a></li>
-                                            <li><a href="#">Pricing</a></li>
-                                            <li><a href="#">Customers</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3">
-                                    <div class="widget">
-                                        <div class="widget-title">Features</div>
-                                        <ul class="list">
-                                            <li><a href="#">Layouts</a></li>
-                                            <li><a href="#">Headers</a></li>
-                                            <li><a href="#">Widgets</a></li>
-                                            <li><a href="#">Footers</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3">
-                                    <div class="widget">
-                                        <div class="widget-title">Pages</div>
-                                        <ul class="list">
-                                            <li><a href="#">Portfolio</a></li>
-                                            <li><a href="#">Blog</a></li>
-                                            <li><a href="#">Shop</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="widget">
-                                        <div class="widget-title">Support</div>
-                                        <ul class="list">
-                                            <li><a href="#">Help Desk</a></li>
-                                            <li><a href="#">Documentation</a></li>
-                                            <li><a href="#">Contact Us</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                        <div class="col-6 col-md-3 col-xl-2">
+                            <!-- Footer widget area 2 -->
+                            <div class="widget">
+                                <h4>SERVICES</h4>
+                                <ul class="list">
+                                    <li><a href="#">Immigration</a></li>
+                                    <li><a href="#">Business Immigration</a></li>
+                                    <li><a href="#">Civil Ligitation</a></li>
+                                    <li><a href="#">Business Law</a></li>
+                                    <li><a href="#">Mexican & Int'l Law</a></li>
+                                </ul>
                             </div>
+                            <!-- end: Footer widget area 2 -->
                         </div>
-
-
+                        <div class="col-6 col-md-6 col-xl-2">
+                            <!-- Footer widget area 3 -->
+                            <div class="widget">
+                                <h4>CONTACT US</h4>
+                                <ul class="list">
+                                    <li><a href="#">WhatsApp</a></li>
+                                    <li><a href="#">Email</a></li>
+                                    <li><a href="#">Call</a></li>
+                                    <li><a href="#">Book</a></li>
+                
+                                </ul>
+                            </div>
+                            <!-- end: Footer widget area 3 -->
+                        </div>
+                        <div class="col-5 col-md-6 col-xl-2">
+                           
+                            <!-- Social icons -->
+                            <h4>FOLLOW US</h4>
+                            <div class="social-icons social-icons-colored-hover">
+                                <ul>
+                                <li class="social-facebook"><a href="https://www.facebook.com/profile.php?id=61561104335631"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-yahoo"><a href="https://www.instagram.com/santana_law_group/"><i class="fab fa-instagram"></i>
+                                <li class="social-facebook"><a href=""><i class="fab fa-linkedin"></i></a></li> <br>
+                                <li class="social-youtube"><a href=" https://youtube.com/@santanalawgroup?feature=shared "><i class="fab fa-youtube"></i></a></li>
+                                <li class="social-xing"><a href="https://api.whatsapp.com/send/?phone=15125845040&text&type=phone_number&app_absent=0"><i class="fab fa-whatsapp"></i> 
+                                </ul>
+                            </div>
+                            <!-- end: Social icons -->
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="copyright-content">
                 <div class="container">
-                    <div class="copyright-text text-center">&copy; 2021 POLO - Responsive Multi-Purpose HTML5 Template. All Rights Reserved.<a href="https://www.inspiro-media.com" target="_blank" rel="noopener"> INSPIRO</a> </div>
+                    <div class="copyright-text text-center">&copy; Santana Law Group, PLLC. All Rights Reserved.<a href="#" target="_blank" rel="noopener" data-bs-toggle="modal" data-bs-target="#exampleModal"> DISCLAIMER</a> </div>
                 </div>
             </div>
+        
+        
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog " style="width:80% ;">
+                  <div class="modal-content">
+                    <div class="modal-header d-flex">
+                    </div>
+                    <div class="modal-body">
+                      <h3 class="text-center m-0 fw-700">LEGAL DISCLAIMER FOR</h3>   
+                      <a href="#" class="fs-20 fw-700 d-block text-center underline" style="color: #467886;"> www.gracegsantana.com</a>   
+                      <p class="mt-3">The information provided on the Santana Law Group, PLLC website is for general informational purposes only and should not be construed as legal advice on any subject matter. The content on this site is intended to provide general information about our firm and the services we offer. While we strive to keep the information accurate and up-to-date, we make no guarantees or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose.</p>
+                      <p class=" fs-18 d-block underline"> www.gracegsantana.com</p>   
+                        <p>The use of this website and the transmission or receipt of information through this website does not create an attorney-client relationship between you and Santana Law Group, PLLC. Any communication through this website or via email is not secure and does not establish an attorney-client relationship. If you are seeking legal advice, please contact us directly to schedule a consultation with one of our attorneys.</p>
+                        <p class="underline fs-18">Confidentiality</p>
+                        <p>Do not send any confidential information to us until such time as an attorney-client relationship has been established. Any information sent to us before an attorney-client relationship has been formally established may not be treated as confidential and may not be protected by attorney-client privilege.</p>
+                        <p class="fs-18 underline">Third-Party Links</p>
+                        <p>Our website may contain links to third-party websites for your convenience. Santana Law Group, PLLC does not endorse or assume any responsibility for the content, policies, or practices of any third-party websites. We encourage you to review the terms and privacy policies of any websites you visit.</p>
+                        <p class="underline fs-18 ">Legal Advertising</p>
+                        <p>This website may be considered advertising under the rules of professional conduct applicable to attorneys in Texas and other jurisdictions where our attorneys are licensed to practice. Prior results do not guarantee a similar outcome.</p>
+                        <p class="underline fs-18 ">Changes to This Disclaimer</p>
+                        <p>Santana Law Group, PLLC reserves the right to change this disclaimer at any time. Any changes will be posted on this page, and it is your responsibility to review this page periodically to be aware of any changes.</p>
+                        <p class="underline fs-18 ">Contact Information</p>
+                        <p>If you have any questions about this disclaimer, please contact us at:</p>
+                        <p>Santana Law Group, PLLC <br>
+                            500 W. 2nd St., Suite 1900, <br>
+                            Austin, Tx 78701 <br>
+                            (512) 584 - 5040 <br>
+                            hello@gracegsantana.com <br>
+                            </p>
+        
+                            <p>By using this website, you acknowledge that you have read, understood, and agreed to be bound by this disclaimer.</p>
+        
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-outline  btn-light" data-bs-dismiss="modal" style="border: solid 1px #334f6e;">ok</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </footer>
-        <!-- end: Footer -->
-
+        
     </div>
     <!-- end: Body Inner -->
 
     <!-- Scroll top -->
     <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
     <!--Plugins-->
-    <script src="js/jquery.js"></script>
+    <!-- <script src="js/jquery.js"></script> -->
     <script src="js/plugins.js"></script>
-
-    <!--Template functions-->
     <script src="js/functions.js"></script>
 
 </body>
-
+<script type="text/javascript">
+    var revapi322,
+        tpj = jQuery;
+    tpj(document).ready(function () {
+        if (tpj("#featured").revolution == undefined) {
+            revslider_showDoubleJqueryError("#featured");
+        } else {
+            revapi322 = tpj("#featured").show().revolution({
+                sliderType: "hero",
+                jsFileLocation: "plugins/slider-revolution/js/",
+                sliderLayout: "fullwidth",
+                dottedOverlay: "none",
+                delay: 9000,
+                viewPort: {
+                    enable: true,
+                    outof: "wait",
+                    visible_area: "80%",
+                    presize: true
+                },
+                responsiveLevels: [1240, 1024, 778, 480],
+                visibilityLevels: [1240, 1024, 778, 480],
+                gridwidth: [1240, 1024, 778, 480],
+                gridheight: [400, 400, 960, 720],
+                lazyType: "none",
+                parallax: {
+                    type: "scroll",
+                    origo: "slidercenter",
+                    speed: 400,
+                    levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55],
+                },
+                shadow: 0,
+                spinner: "spinner3",
+                autoHeight: "off",
+                disableProgressBar: "on",
+                hideThumbsOnMobile: "off",
+                hideSliderAtLimit: 0,
+                hideCaptionAtLimit: 0,
+                hideAllCaptionAtLilmit: 0,
+                debugMode: false,
+                fallbacks: {
+                    simplifyAll: "off",
+                    disableFocusListener: false,
+                }
+            });
+        }
+        try {
+            initSocialSharing("322")
+        } catch (e) {}
+    }); /*ready*/
+</script> 
 </html>
