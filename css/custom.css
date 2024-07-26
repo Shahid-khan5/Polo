@@ -64,6 +64,10 @@
 }
 @media screen and (max-width:767px) {
     .rev_slider .tp-caption.rev_row{
-        margin: 0 !important;
+        margin: 0  !important;
+        
+    }
+    .mt-30{
+margin-top: 30px !important;
     }
 }
