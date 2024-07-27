@@ -88,3 +88,9 @@ margin-top: 30px !important;
     min-width: 100% !important;
 }
 }
+#page-title{
+    background: transparent !important;
+}
+#mainMenu.menu-lines nav > ul > li.current > a:after, #mainMenu.menu-lines nav > ul > li:hover > a:after, #mainMenu.menu-lines nav > ul > li:focus > a:after{
+    background-color: #334f6e;
+}
