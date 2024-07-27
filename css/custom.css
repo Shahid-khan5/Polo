@@ -17,9 +17,9 @@
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
-    max-width: 80% !important;
-    min-width:80% !important;
-    width:80% !important;
+    max-width: 80% ;
+    min-width:80%;
+    width:80%;
 }
 .fs-20{
     font-size: 20px !important;
@@ -37,7 +37,7 @@
     font-family: sans-serif !important;
 }
 .modal-dialog{
-    max-width:80% !important;
+    max-width:80%;
 }
 
 .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl{
@@ -61,6 +61,15 @@
     font-size: 0;
     margin: 40px 0 ;
     padding:0 20px !important;
+}
+
+@media screen and (max-width:992px) {
+ .modal.fade.show{
+    padding-left: 17px;
+}
+div#exampleModal {
+    padding-left: 17px !important;
+} 
 }
 @media screen and (max-width:767px) {
     .rev_slider .tp-caption.rev_row{
