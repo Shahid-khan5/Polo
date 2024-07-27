@@ -13,6 +13,7 @@
     <!-- Stylesheets & Fonts -->
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
     <!-- LOAD JQUERY LIBRARY -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
     <!-- LOADING FONTS AND ICONS -->
@@ -24,6 +25,9 @@
     <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/css/layers.css">
     <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/css/navigation.css">
     <style type="text/css">
+          #mainMenu.menu-lines nav > ul > li.current > a:after, #mainMenu.menu-lines nav > ul > li:hover > a:after, #mainMenu.menu-lines nav > ul > li:focus > a:after{
+            background-color:#e2e1ba;
+        }
         .tiny_bullet_slider .tp-bullet:before {
             content: " ";
             position: absolute;
@@ -67,6 +71,7 @@
         .bullet-bar .tp-bullet-image {}
         
         .bullet-bar .tp-bullet-title {}
+
     </style>
     <!-- REVOLUTION JS FILES -->
     <script type="text/javascript" src="plugins/slider-revolution/js/jquery.themepunch.tools.min.js"></script>
@@ -89,7 +94,7 @@
      <!-- Body Inner -->
      <div class="body-inner">
         <!-- Topbar -->
-        <div id="topbar" class="topbar-transparent topbar-fullwidth dark d-none d-xl-block d-lg-block">
+        <div id="topbar" class=" border-0 topbar-transparent topbar-fullwidth dark d-none d-xl-block d-lg-block">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -206,9 +211,9 @@
                                 data-whitespace="normal" data-type="text" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
                                 data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 600px; max-width: 600px; white-space: normal; font-size: 17px; line-height: 22px; font-weight: 500; color: rgba(255, 255, 255, 0.85);font-family:sans-serif;border-width:0px;letter-spacing:2px;">GETTING BACK INTO THE GREAT OUTDOORS FOR ADVENTURE AND MYSTERY. </div>
                             <!-- LAYER NR. 4 -->
-                            <div class="tp-caption rev-btn btn btn-outline btn-light" id="slide-3204-layer-4" data-x="['left','left','left','left']" data-hoffset="['50','70','50','26']" data-y="['top','top','top','top']" data-voffset="['465','401','285','276']" data-fontweight="['900','700','700','700']"
-                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"0","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[45,45,45,45]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[45,45,45,45]" style="z-index: 8; white-space: nowrap; font-size: 15px; line-height: 50px; font-weight: 900;font-family:sans-serif;">READ ARTICLE <i style="font-size:13px;margin-left:10px;" class="fa fa-icon-chevron-right"></i> </div>
+                            <div class="tp-caption rev-btn " id="slide-3204-layer-4" data-x="['left','left','left','left']" data-hoffset="['50','70','50','26']" data-y="['top','top','top','top']" data-voffset="['465','401','285','276']" data-fontweight="['900','700','700','700']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"0","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bg:red;bw:2px 2px 2px 2px;"}]'
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[45,45,45,45]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[45,45,45,45]" style="z-index: 8; white-space: nowrap; font-size: 15px; line-height: 50px; font-weight: 900; color: red;font-family:sans-serif;background-color:rgba(0, 0, 0, 0);border-color:red;border-style:solid;border-width:2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;letter-spacing:3px;cursor:pointer;">READ ARTICLE <i style="font-size:13px;margin-left:10px;" class="fa fa-icon-chevron-right"></i> </div>
                         </li>
                         <!-- SLIDE  -->
                         <li data-index="rs-3205" data-transition="slideoververtical" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="plugins/slider-revolution/assets/images/news2-1-100x50.jpg"
@@ -230,11 +235,11 @@
                             <!-- LAYER NR. 7 -->
                             <div class="tp-caption  " id="slide-3205-layer-3" data-x="['left','left','left','left']" data-hoffset="['98','88','76','26']" data-y="['top','top','top','top']" data-voffset="['358','302','184','163']" data-width="['600','560','340','260']" data-height="none"
                                 data-whitespace="normal" data-type="text" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; min-width: 600px; max-width: 600px; white-space: normal; font-size: 17px; line-height: 22px; font-weight: 500; color: rgba(255, 255, 255, 0.85);font-family:Roboto;border-width:0px;letter-spacing:2px;">WHO WE MET AND WHAT WE HAVE SEEN DURING OUR YEAR INDIA. </div>
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; min-width: 600px; max-width: 600px; white-space: normal; font-size: 17px; line-height: 22px; font-weight: 500; color: rgba(255, 255, 255, 0.85);font-family:sans-serif;border-width:0px;letter-spacing:2px;">WHO WE MET AND WHAT WE HAVE SEEN DURING OUR YEAR INDIA. </div>
                             <!-- LAYER NR. 8 -->
-                            <div class="tp-caption rev-btn btn btn-outline btn-light" id="slide-3205-layer-4" data-x="['left','left','left','left']" data-hoffset="['50','40','50','26']" data-y="['top','top','top','top']" data-voffset="['465','411','285','254']" data-fontweight="['900','700','700','700']"
-                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"0","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[45,45,45,45]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[45,45,45,45]" style="z-index: 12; white-space: nowrap; font-size: 15px; line-height: 50px; font-weight: 900; font-family:Roboto;">READ ARTICLE <i style="font-size:13px;margin-left:10px;" class="fa fa-icon-chevron-right"></i> </div>
+                            <div class="tp-caption rev-btn " id="slide-3205-layer-4" data-x="['left','left','left','left']" data-hoffset="['50','40','50','26']" data-y="['top','top','top','top']" data-voffset="['465','411','285','254']" data-fontweight="['900','700','700','700']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"0","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bg:red;bw:2px 2px 2px 2px;"}]'
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[45,45,45,45]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[45,45,45,45]" style="z-index: 12; white-space: nowrap; font-size: 15px; line-height: 50px; font-weight: 900; color: red;font-family:sans-serif;background-color:rgba(0, 0, 0, 0);border-color:red;border-style:solid;border-width:2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;letter-spacing:3px;cursor:pointer;">READ ARTICLE <i style="font-size:13px;margin-left:10px;" class="fa fa-icon-chevron-right"></i> </div>
                         </li>
                         <!-- SLIDE  -->
                         <li data-index="rs-3206" data-transition="slideoververtical" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="plugins/slider-revolution/assets/images/news3-2-100x50.jpg"
@@ -252,7 +257,7 @@
                             <!-- LAYER NR. 10 -->
                             <div class="tp-caption  " id="slide-3206-layer-1" data-x="['left','left','left','left']" data-hoffset="['94','84','76','26']" data-y="['top','top','top','top']" data-voffset="['213','193','95','85']" data-fontsize="['60','45','35','25']" data-lineheight="['60','45','35','30']"
                                 data-width="['600','560','340','260']" data-height="none" data-whitespace="normal" data-type="text" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 14; min-width: 600px; max-width: 600px; white-space: normal; font-size: 60px; line-height: 60px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Roboto;border-width:0px;">OUR ARCTIC CIRCLE EXPEDITION </div>
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 14; min-width: 600px; max-width: 600px; white-space: normal; font-size: 60px; line-height: 60px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:sans-serif;border-width:0px;">OUR ARCTIC CIRCLE EXPEDITION </div>
                             <!-- LAYER NR. 11 -->
                             <div class="tp-caption tp-shape tp-shapewrapper " id="slide-3206-layer-2" data-x="['left','left','left','left']" data-hoffset="['50','40','50','0']" data-y="['top','top','top','top']" data-voffset="['220','200','100','90']" data-width="8" data-height="['104','77','59','48']"
                                 data-whitespace="normal" data-type="shape" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"sY:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
@@ -261,11 +266,11 @@
                             <!-- LAYER NR. 12 -->
                             <div class="tp-caption  " id="slide-3206-layer-3" data-x="['left','left','left','left']" data-hoffset="['98','88','76','26']" data-y="['top','top','top','top']" data-voffset="['358','302','184','163']" data-width="['600','560','340','260']" data-height="none"
                                 data-whitespace="normal" data-type="text" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 16; min-width: 600px; max-width: 600px; white-space: normal; font-size: 17px; line-height: 22px; font-weight: 500; color: rgba(255, 255, 255, 0.85);font-family:Roboto;border-width:0px;letter-spacing:2px;">WHAT WE EXPERIENCED IN THE SNOW AND 50° BELOW ZERO. </div>
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 16; min-width: 600px; max-width: 600px; white-space: normal; font-size: 17px; line-height: 22px; font-weight: 500; color: rgba(255, 255, 255, 0.85);font-family:sans-serif;border-width:0px;letter-spacing:2px;">WHAT WE EXPERIENCED IN THE SNOW AND 50° BELOW ZERO. </div>
                             <!-- LAYER NR. 13 -->
-                            <div class="tp-caption rev-btn btn btn-outline btn-light " id="slide-3206-layer-4" data-x="['left','left','left','left']" data-hoffset="['50','40','50','26']" data-y="['top','top','top','top']" data-voffset="['465','411','285','254']" data-fontweight="['900','700','700','700']"
-                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"0","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[45,45,45,45]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[45,45,45,45]" style="z-index: 17; white-space: nowrap; font-size: 15px; line-height: 50px; font-weight: 900;font-family:Roboto;">READ ARTICLE <i style="font-size:13px;margin-left:10px;" class="fa fa-icon-chevron-right"></i> </div>
+                            <div class="tp-caption rev-btn " id="slide-3206-layer-4" data-x="['left','left','left','left']" data-hoffset="['50','40','50','26']" data-y="['top','top','top','top']" data-voffset="['465','411','285','254']" data-fontweight="['900','700','700','700']"
+                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"0","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bg:red;bw:2px 2px 2px 2px;"}]'
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[45,45,45,45]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[45,45,45,45]" style="z-index: 17; white-space: nowrap; font-size: 15px; line-height: 50px; font-weight: 900; color: red;font-family:sans-serif;background-color:rgba(0, 0, 0, 0);border-color:red;border-style:solid;border-width:2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;letter-spacing:3px;cursor:pointer;">READ ARTICLE <i style="font-size:13px;margin-left:10px;" class="fa fa-icon-chevron-right"></i> </div>
                             <!-- LAYER NR. 14 -->
                             <div class="tp-caption  " id="slide-3206-layer-7" data-x="['left','left','left','left']" data-hoffset="['95','85','123','69']" data-y="['top','top','top','top']" data-voffset="['163','143','52','53']" data-width="['600','560','290','215']" data-height="none"
                                 data-whitespace="normal" data-type="text" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"y:-50px;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
@@ -296,7 +301,7 @@
                             <!-- LAYER NR. 17 -->
                             <div class="tp-caption  " id="slide-3207-layer-1" data-x="['left','left','left','left']" data-hoffset="['94','84','76','26']" data-y="['top','top','top','top']" data-voffset="['213','193','95','85']" data-fontsize="['60','45','35','25']" data-lineheight="['60','45','35','30']"
                                 data-width="['600','560','340','260']" data-height="none" data-whitespace="normal" data-type="text" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 21; min-width: 600px; max-width: 600px; white-space: normal; font-size: 60px; line-height: 60px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Roboto;border-width:0px;">WILDLIFE IN 4K YOUTUBE VIDEO </div>
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 21; min-width: 600px; max-width: 600px; white-space: normal; font-size: 60px; line-height: 60px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:sans-serif;border-width:0px;">WILDLIFE IN 4K YOUTUBE VIDEO </div>
                             <!-- LAYER NR. 18 -->
                             <div class="tp-caption tp-shape tp-shapewrapper " id="slide-3207-layer-2" data-x="['left','left','left','left']" data-hoffset="['50','40','50','0']" data-y="['top','top','top','top']" data-voffset="['220','200','100','90']" data-width="8" data-height="['104','77','59','48']"
                                 data-whitespace="normal" data-type="shape" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"sY:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
@@ -305,11 +310,11 @@
                             <!-- LAYER NR. 19 -->
                             <div class="tp-caption  " id="slide-3207-layer-3" data-x="['left','left','left','left']" data-hoffset="['98','88','76','26']" data-y="['top','top','top','top']" data-voffset="['358','302','184','163']" data-width="['600','560','340','260']" data-height="none"
                                 data-whitespace="normal" data-type="text" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 23; min-width: 600px; max-width: 600px; white-space: normal; font-size: 17px; line-height: 22px; font-weight: 500; color: rgba(255, 255, 255, 0.85);font-family:Roboto;border-width:0px;letter-spacing:2px;">CREATED BY JACOB + KATIE SCHWARZ. </div>
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 23; min-width: 600px; max-width: 600px; white-space: normal; font-size: 17px; line-height: 22px; font-weight: 500; color: rgba(255, 255, 255, 0.85);font-family:sans-serif;border-width:0px;letter-spacing:2px;">CREATED BY JACOB + KATIE SCHWARZ. </div>
                             <!-- LAYER NR. 20 -->
-                            <a class="tp-caption rev-btn btn btn-outline btn-light" href="https://www.youtube.com/watch?v=xDMP3i36naA" target="_blank" id="slide-3207-layer-4" data-x="['left','left','left','left']" data-hoffset="['50','40','50','26']" data-y="['top','top','top','top']" data-voffset="['465','411','285','254']"
-                                data-fontweight="['900','700','700','700']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions='' data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"0","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[45,45,45,45]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[45,45,45,45]" style="z-index: 24; white-space: nowrap; font-size: 15px; line-height: 50px; font-weight: 900;font-family:Roboto;">GO TO VIDEO <i style="font-size:13px;margin-left:10px;" class="fa fa-icon-chevron-right"></i> </a>
+                            <a class="tp-caption rev-btn " href="https://www.youtube.com/watch?v=xDMP3i36naA" target="_blank" id="slide-3207-layer-4" data-x="['left','left','left','left']" data-hoffset="['50','40','50','26']" data-y="['top','top','top','top']" data-voffset="['465','411','285','254']"
+                                data-fontweight="['900','700','700','700']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions='' data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"0","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bg:red;bw:2px 2px 2px 2px;"}]'
+                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[45,45,45,45]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[45,45,45,45]" style="z-index: 24; white-space: nowrap; font-size: 15px; line-height: 50px; font-weight: 900; color: red;font-family:sans-serif;background-color:rgba(0, 0, 0, 0);border-color:red;border-style:solid;border-width:2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;letter-spacing:3px;cursor:pointer;">GO TO VIDEO <i style="font-size:13px;margin-left:10px;" class="fa fa-icon-chevron-right"></i> </a>
                         </li>
                     </ul>
                     <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
@@ -426,7 +431,397 @@
             </script>
         </section>
         <!-- end: Revolution Slider-->
+        <section id="page-content">
+            <div class="container">
+                <!-- Portfolio Filter -->
+                <nav class="grid-filter gf-outline" data-layout="#blog">
+                    <ul>
+                        <li class="active"><a href="#" data-category="*">Show All</a></li>
+                        <li><a href="#" data-category=".bc-general">General</a></li>
+                        <li><a href="#" data-category=".bc-music">Music</a></li>
+                        <li><a href="#" data-category=".bc-economics">Economics</a></li>
+                        <li><a href="#" data-category=".bc-medical">medical</a></li>
+                        <li><a href="#" data-category=".bc-sport">Sport</a></li>
+                        <li><a href="#" data-category=".bc-science">Science</a></li>
+                    </ul>
+                    <div class="grid-active-title">Show All</div>
+                </nav>
+                <!-- end: Portfolio Filter -->
+                <!-- Blog -->
+                <div id="blog" class="grid-layout post-thumbnails m-b-30" data-item="post-item">
+                    <!-- Post item-->
+                    <div class="post-item border bc-music bc-science">
+                        <div class="post-item-wrap">
+                            <div class="post-image">
+                                <a href="#">
+                                    <img alt="" src="images/blog/12.jpg">
+                                </a>
+                                <span class="post-meta-category"><a href="">Lifestyle</a></span>
+                            </div>
+                            <div class="post-item-description">
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
+                                <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33 Comments</a></span>
+                                <h2><a href="#">Standard post with a single image
+                                    </a></h2>
+                                <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+                                <a href="#" class="item-link">Read More <i class="icon-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post item-->
+                    <!-- Post item-->
+                    <div class="post-item border bc-medical bc-sport bc-science">
+                        <div class="post-item-wrap">
+                            <div class="post-slider">
+                                <div class="carousel dots-inside arrows-visible arrows-only" data-items="1" data-loop="true" data-autoplay="true" data-lightbox="gallery">
+                                    <a href="images/blog/11.jpg" data-lightbox="gallery-image">
+                                        <img alt="" src="images/blog/16.jpg">
+                                    </a>
+                                    <a href="images/blog/16.jpg" data-lightbox="gallery-image">
+                                        <img alt="" src="images/blog/11.jpg">
+                                    </a>
+                                </div>
+                                <span class="post-meta-category"><a href="">Technology</a></span>
+                            </div>
+                            <div class="post-item-description">
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
+                                <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33 Comments</a></span>
+                                <h2><a href="#">Simplicity, a post with slider gallery</a></h2>
+                                <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+                                <a href="#" class="item-link">Read More <i class="icon-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post item-->
+                    <!-- Post item-->
+                    <div class="post-item border bc-general bc-music">
+                        <div class="post-item-wrap">
+                            <div class="post-image">
+                                <a href="#">
+                                    <img alt="" src="images/blog/17.jpg">
+                                </a>
+                                <span class="post-meta-category"><a href="">Science</a></span>
+                            </div>
+                            <div class="post-item-description">
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
+                                <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33 Comments</a></span>
+                                <h2><a href="#">Standard post with a single image
+                                    </a></h2>
+                                <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+                                <a href="#" class="item-link">Read More <i class="icon-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post item-->
+                    <!-- Post item HTML5 Audio-->
+                    <div class="post-item border bc-music bc-sport bc-science">
+                        <div class="post-item-wrap">
+                            <div class="post-audio">
+                                <a href="#">
+                                    <img alt="" src="images/blog/audio-bg.jpg">
+                                </a>
+                                <span class="post-meta-category"><a href="">Audio</a></span>
+                                <audio class="video-js vjs-default-skin" controls preload="false" data-setup="{}">
+                                    <source src="audio/beautiful-optimist.mp3" type="audio/mp3" />
+                                </audio>
+                            </div>
+                            <div class="post-item-description">
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
+                                <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33 Comments</a></span>
+                                <h2><a href="#">Self Hosted HTML5 Audio (mp3) with image cover</a></h2>
+                                <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+                                <a href="#" class="item-link">Read More <i class="icon-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post item-->
+                    <!-- Post item Vimeo-->
+                    <div class="post-item border bc-music bc-medical bc-sport bc-science">
+                        <div class="post-item-wrap">
+                            <div class="post-video">
+                                <div class="ratio ratio-16x9">
+                                    <iframe src="https://player.vimeo.com/video/198559065?title=0&byline=0&portrait=0" width="560" height="376" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                </div>
+                                <span class="post-meta-category"><a href="">Video</a></span>
+                            </div>
+                            <div class="post-item-description">
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
+                                <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33 Comments</a></span>
+                                <h2><a href="#">This is a example post with Vimeo video</a></h2>
+                                <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+                                <a href="#" class="item-link">Read More <i class="icon-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post item Vimeo-->
+                    <!-- Post item-->
+                    <div class="post-item border bc-general bc-economics">
+                        <div class="post-item-wrap">
+                            <div class="post-image">
+                                <a href="#">
+                                    <img alt="" src="images/blog/18.jpg">
+                                </a>
+                                <span class="post-meta-category"><a href="">Science</a></span>
+                            </div>
+                            <div class="post-item-description">
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
+                                <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33 Comments</a></span>
+                                <h2><a href="#">Standard post with a single image
+                                    </a></h2>
+                                <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+                                <a href="#" class="item-link">Read More <i class="icon-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post item-->
+                    <!-- Post item YouTube-->
+                    <div class="post-item border bc-medical bc-sport bc-science">
+                        <div class="post-item-wrap">
+                            <div class="post-video">
+                                <div class="ratio ratio-16x9">
+                                    <iframe width="560" height="376" src="https://www.youtube.com/embed/dA8Smj5tZOQ" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <span class="post-meta-category"><a href="">Video</a></span>
+                            </div>
+                            <div class="post-item-description">
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
+                                <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33 Comments</a></span>
+                                <h2><a href="#">This is a example post with YouTube</a></h2>
+                                <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+                                <a href="#" class="item-link">Read More </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post item YouTube-->
+                    <!-- Post item-->
+                    <div class="post-item border bc-general bc-economics bc-medical">
+                        <div class="post-item-wrap">
+                            <div class="post-slider">
+                                <div class="carousel dots-inside arrows-visible arrows-only" data-autoplay="2600" data-animate-in="fadeIn" data-animate-out="fadeOut" data-items="1" data-loop="true" data-autoplay="true" data-lightbox="gallery">
+                                    <a href="images/blog/19.jpg" data-lightbox="gallery-image">
+                                        <img alt="" src="images/blog/19.jpg">
+                                    </a>
+                                    <a href="images/blog/20.jpg" data-lightbox="gallery-image">
+                                        <img alt="" src="images/blog/20.jpg">
+                                    </a>
+                                </div>
+                                <span class="post-meta-category"><a href="">Technology</a></span>
+                            </div>
+                            <div class="post-item-description">
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
+                                <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33 Comments</a></span>
+                                <h2><a href="#">Simplicity, a post with slider gallery</a></h2>
+                                <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+                                <a href="#" class="item-link">Read More <i class="icon-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post item-->
+                    <!-- Post item-->
+                    <div class="post-item border bc-economics bc-medical">
+                        <div class="post-item-wrap">
+                            <div class="post-image">
+                                <a href="#">
+                                    <img alt="" src="images/blog/14.jpg">
+                                </a>
+                                <span class="post-meta-category"><a href="">Lifestyle</a></span>
+                            </div>
+                            <div class="post-item-description">
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
+                                <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33 Comments</a></span>
+                                <h2><a href="#">Standard post with a single image
+                                    </a></h2>
+                                <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+                                <a href="#" class="item-link">Read More <i class="icon-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post item-->
+                </div>
+                <!-- end: Blog -->
+                <!-- Pagination -->
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-left"></i></a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-right"></i></a></li>
+                </ul>
+                <!-- end: Pagination -->
+            </div>
+        </section>
 
+        <!-- PROJECTS -->
+        <div id="portfolio_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="nice-and-clean-projects" data-source="gallery" style="margin:0px auto;background-color:#2d3032;padding:0px;margin-top:0px;margin-bottom:0px;">
+            <!-- START REVOLUTION SLIDER 5.4.1 fullwidth mode -->
+            <div id="portfolio" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
+                <ul>
+                    <!-- SLIDE business immigration -->
+                    <li data-index="rs-432" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="plugins/slider-revolution/assets/images/carousel3-100x50.jpg"
+                        data-rotate="0" data-saveperformance="off" data-title="Wild" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/slider/service-business-immigration.webp" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-432-layer-7" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full"
+                            data-height="full" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":10,"speed":600,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power4.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 5;font-family:Open Sans;background-color:rgba(51, 79, 110, 0.65);">
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption  " id="slide-432-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['80','80','50','50']" data-width="300" data-height="none" data-whitespace="normal"
+                            data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;fb:10px;","mask":"x:0;y:0;s:inherit;e:inherit;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":1000,"frame":"999","to":"y:-50px;opacity:0;fb:10px;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 6; min-width: 300px; max-width: 300px; white-space: normal; font-size: 35px; line-height: 35px; font-weight: 500; color:#E2E1DA;font-family:Poppins;cursor:pointer;">Business Immigration<br /><span style="font-size:17px;opacity:0.65;font-weight:400;">Explore this service</span> </div>
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-432-layer-10" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="2"
+                            data-height="75" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":"bytrigger","speed":600,"frame":"0","from":"sY:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":600,"frame":"999","to":"sY:0;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 7;font-family:Open Sans;background-color:#E2E1DA;">
+                        </div>
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-432-layer-11" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="75"
+                            data-height="2" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":"bytrigger","speed":600,"frame":"0","from":"sX:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":600,"frame":"999","to":"sX:0;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 8;font-family:Open Sans;background-color:#E2E1DA;">
+                        </div>
+                        <!-- LAYER NR. 5 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-432-layer-8" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full"
+                            data-height="full" data-whitespace="nowrap" data-type="shape" data-actions='[{"event":"mouseenter","action":"startlayer","layer":"slide-432-layer-10","delay":""},{"event":"mouseenter","action":"startlayer","layer":"slide-432-layer-11","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-432-layer-10","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-432-layer-11","delay":""},{"event":"mouseenter","action":"stoplayer","layer":"slide-432-layer-1","delay":""},{"event":"mouseleave","action":"startlayer","layer":"slide-432-layer-1","delay":""},{"event":"mouseenter","action":"stoplayer","layer":"slide-432-layer-7","delay":""},{"event":"mouseleave","action":"startlayer","layer":"slide-432-layer-7","delay":""}]'
+                            data-responsive_offset="on" data-frames='[{"delay":10,"speed":600,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":600,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);br:0 0 0 0;"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9;font-family:Open Sans;background-color:rgba(45, 48, 50, 0);cursor:pointer;">
+                        </div>
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-433" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="plugins/slider-revolution/assets/images/carousel4-100x50.jpg"
+                        data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/slider/service-business-law.webp" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 6 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-433-layer-7" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full"
+                            data-height="full" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":10,"speed":600,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power4.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 5;font-family:Open Sans;background-color:rgba(51, 79, 110, 0.65);">
+                        </div>
+                        <!-- LAYER NR. 7 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-433-layer-10" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="2"
+                            data-height="75" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":"bytrigger","speed":600,"frame":"0","from":"sY:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":600,"frame":"999","to":"sY:0;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 6;font-family:Open Sans;background-color:#E2E1DA;">
+                        </div>
+                        <!-- LAYER NR. 8 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-433-layer-11" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="75"
+                            data-height="2" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":"bytrigger","speed":600,"frame":"0","from":"sX:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":600,"frame":"999","to":"sX:0;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 7;font-family:Open Sans;background-color:#E2E1DA;">
+                        </div>
+                        <!-- LAYER NR. 9 -->
+                        <div class="tp-caption  " id="slide-433-layer-14" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['80','80','50','50']" data-width="300" data-height="none" data-whitespace="normal"
+                            data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;fb:10px;","mask":"x:0;y:0;s:inherit;e:inherit;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":1000,"frame":"999","to":"y:-50px;opacity:0;fb:10px;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 8; min-width: 300px; max-width: 300px; white-space: normal; font-size: 35px; line-height: 35px; font-weight: 500; color:#E2E1DA;font-family:Poppins;cursor:pointer;">Business Law<br /><span style="font-size:17px;opacity:0.65;font-weight:400;">Explore this service</span> </div>
+                        <!-- LAYER NR. 10 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-433-layer-8" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full"
+                            data-height="full" data-whitespace="nowrap" data-type="shape" data-actions='[{"event":"mouseenter","action":"startlayer","layer":"slide-433-layer-10","delay":""},{"event":"mouseenter","action":"startlayer","layer":"slide-433-layer-11","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-433-layer-10","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-433-layer-11","delay":""},{"event":"mouseenter","action":"stoplayer","layer":"slide-433-layer-14","delay":""},{"event":"mouseleave","action":"startlayer","layer":"slide-433-layer-14","delay":""},{"event":"mouseenter","action":"stoplayer","layer":"slide-433-layer-7","delay":""},{"event":"mouseleave","action":"startlayer","layer":"slide-433-layer-7","delay":""}]'
+                            data-responsive_offset="on" data-frames='[{"delay":10,"speed":600,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":600,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);br:0 0 0 0;"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9;font-family:Open Sans;background-color:rgba(45, 48, 50, 0);cursor:pointer;">
+                        </div>
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-434" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="plugins/slider-revolution/assets/images/carousel2-100x50.jpg"
+                        data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/slider/service-litigation.webp" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 11 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-434-layer-7" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full"
+                            data-height="full" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":10,"speed":600,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power4.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 5;font-family:Open Sans;background-color:rgba(51, 79, 110, 0.65);">
+                        </div>
+                        <!-- LAYER NR. 12 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-434-layer-10" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="2"
+                            data-height="75" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":"bytrigger","speed":600,"frame":"0","from":"sY:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":600,"frame":"999","to":"sY:0;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 6;font-family:Open Sans;background-color:#E2E1DA;">
+                        </div>
+                        <!-- LAYER NR. 13 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-434-layer-11" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="75"
+                            data-height="2" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":"bytrigger","speed":600,"frame":"0","from":"sX:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":600,"frame":"999","to":"sX:0;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 7;font-family:Open Sans;background-color:rgba(255, 255, 255, 1.00);">
+                        </div>
+                        <!-- LAYER NR. 14 -->
+                        <div class="tp-caption  " id="slide-434-layer-12" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['80','80','50','50']" data-width="300" data-height="none" data-whitespace="normal"
+                            data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;fb:10px;","mask":"x:0;y:0;s:inherit;e:inherit;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":1000,"frame":"999","to":"y:-50px;opacity:0;fb:10px;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 8; min-width: 300px; max-width: 300px; white-space: normal; font-size: 35px; line-height: 35px; font-weight: 500; color: rgba(255, 255, 255, 1.00);font-family:Poppins;cursor:pointer;">Civil Litigation<br /><span style="font-size:17px;opacity:0.65;font-weight:400;">Explore this Service</span> </div>
+                        <!-- LAYER NR. 15 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-434-layer-8" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full"
+                            data-height="full" data-whitespace="nowrap" data-type="shape" data-actions='[{"event":"mouseenter","action":"startlayer","layer":"slide-434-layer-10","delay":""},{"event":"mouseenter","action":"startlayer","layer":"slide-434-layer-11","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-434-layer-10","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-434-layer-11","delay":""},{"event":"mouseenter","action":"stoplayer","layer":"slide-434-layer-12","delay":""},{"event":"mouseleave","action":"startlayer","layer":"slide-434-layer-12","delay":""},{"event":"mouseenter","action":"stoplayer","layer":"slide-434-layer-7","delay":""},{"event":"mouseleave","action":"startlayer","layer":"slide-434-layer-7","delay":""}]'
+                            data-responsive_offset="on" data-frames='[{"delay":10,"speed":600,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":600,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);br:0 0 0 0;"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9;font-family:Open Sans;background-color:rgba(45, 48, 50, 0);cursor:pointer;">
+                        </div>
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-435" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="plugins/slider-revolution/assets/images/carousel5-100x50.jpg"
+                        data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/slider/service-mexicolaw.webp" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 16 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-435-layer-7" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full"
+                            data-height="full" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":10,"speed":600,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power4.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 5;font-family:Open Sans;background-color:rgba(51, 79, 110, 0.65);">
+                        </div>
+                        <!-- LAYER NR. 17 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-435-layer-10" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="2"
+                            data-height="75" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":"bytrigger","speed":600,"frame":"0","from":"sY:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":600,"frame":"999","to":"sY:0;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 6;font-family:Open Sans;background-color:rgba(255, 255, 255, 1.00);">
+                        </div>
+                        <!-- LAYER NR. 18 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-435-layer-11" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="75"
+                            data-height="2" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":"bytrigger","speed":600,"frame":"0","from":"sX:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":600,"frame":"999","to":"sX:0;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 7;font-family:Open Sans;background-color:rgba(255, 255, 255, 1.00);">
+                        </div>
+                        <!-- LAYER NR. 19 -->
+                        <div class="tp-caption  " id="slide-435-layer-12" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['80','80','50','50']" data-width="300" data-height="none" data-whitespace="normal"
+                            data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;fb:10px;","mask":"x:0;y:0;s:inherit;e:inherit;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":1000,"frame":"999","to":"y:-50px;opacity:0;fb:10px;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 8; min-width: 300px; max-width: 300px; white-space: normal; font-size: 35px; line-height: 35px; font-weight: 500; color: rgba(255, 255, 255, 1.00);font-family:Poppins;cursor:pointer;">Mexican & International Law<br /><span style="font-size:17px;opacity:0.65;font-weight:400;">Explore this service</span> </div>
+                        <!-- LAYER NR. 20 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-435-layer-8" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full"
+                            data-height="full" data-whitespace="nowrap" data-type="shape" data-actions='[{"event":"mouseenter","action":"startlayer","layer":"slide-435-layer-10","delay":""},{"event":"mouseenter","action":"startlayer","layer":"slide-435-layer-11","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-435-layer-10","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-435-layer-11","delay":""},{"event":"mouseenter","action":"stoplayer","layer":"slide-435-layer-12","delay":""},{"event":"mouseleave","action":"startlayer","layer":"slide-435-layer-12","delay":""},{"event":"mouseenter","action":"stoplayer","layer":"slide-435-layer-7","delay":""},{"event":"mouseleave","action":"startlayer","layer":"slide-435-layer-7","delay":""}]'
+                            data-responsive_offset="on" data-frames='[{"delay":10,"speed":600,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":600,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);br:0 0 0 0;"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9;font-family:Open Sans;background-color:rgba(45, 48, 50, 0);cursor:pointer;">
+                        </div>
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-436" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="plugins/slider-revolution/assets/images/carousel7-100x50.jpg"
+                        data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/slider/service-real-estate-law.webp" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 21 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-436-layer-7" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full"
+                            data-height="full" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":10,"speed":600,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power4.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 5;font-family:Open Sans;background-color:rgba(51, 79, 110, 0.65);">
+                        </div>
+                        <!-- LAYER NR. 22 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-436-layer-10" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="2"
+                            data-height="75" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":"bytrigger","speed":600,"frame":"0","from":"sY:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":600,"frame":"999","to":"sY:0;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 6;font-family:Open Sans;background-color:rgba(255, 255, 255, 1.00);">
+                        </div>
+                        <!-- LAYER NR. 23 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-436-layer-11" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="75"
+                            data-height="2" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":"bytrigger","speed":600,"frame":"0","from":"sX:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":600,"frame":"999","to":"sX:0;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 7;font-family:Open Sans;background-color:rgba(255, 255, 255, 1.00);">
+                        </div>
+                        <!-- LAYER NR. 24 -->
+                        <div class="tp-caption  " id="slide-436-layer-12" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['80','80','50','50']" data-width="300" data-height="none" data-whitespace="normal"
+                            data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;fb:10px;","mask":"x:0;y:0;s:inherit;e:inherit;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":1000,"frame":"999","to":"y:-50px;opacity:0;fb:10px;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 8; min-width: 300px; max-width: 300px; white-space: normal; font-size: 35px; line-height: 35px; font-weight: 500; color: rgba(255, 255, 255, 1.00);font-family:Poppins;cursor:pointer;">Real Estate Law<br /><span style="font-size:17px;opacity:0.65;font-weight:400;">Explore this service</span> </div>
+                        <!-- LAYER NR. 25 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-436-layer-8" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full"
+                            data-height="full" data-whitespace="nowrap" data-type="shape" data-actions='[{"event":"mouseenter","action":"startlayer","layer":"slide-436-layer-10","delay":""},{"event":"mouseenter","action":"startlayer","layer":"slide-436-layer-11","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-436-layer-10","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-436-layer-11","delay":""},{"event":"mouseenter","action":"stoplayer","layer":"slide-436-layer-12","delay":""},{"event":"mouseleave","action":"startlayer","layer":"slide-436-layer-12","delay":""},{"event":"mouseenter","action":"stoplayer","layer":"slide-436-layer-7","delay":""},{"event":"mouseleave","action":"startlayer","layer":"slide-436-layer-7","delay":""}]'
+                            data-responsive_offset="on" data-frames='[{"delay":10,"speed":600,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":600,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);br:0 0 0 0;"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9;font-family:Open Sans;background-color:rgba(45, 48, 50, 0);cursor:pointer;">
+                        </div>
+                    </li>
+                </ul>
+                <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+            </div>
+        </div>
             <!-- SERVICES -->
             <div id="rev_slider_158_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="nice-and-clean-services" data-source="gallery" style="margin:0px auto;background-color:#2d3032;padding:0px;margin-top:0px;margin-bottom:0px;">
                 <!-- START REVOLUTION SLIDER 5.4.1 fullwidth mode -->
@@ -445,8 +840,8 @@
                                 data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; min-width: #1/3#px; max-width: #1/3#px; max-width: 360px; max-width: 360px; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Open Sans;">
                                 <!-- LAYER NR. 2 -->
                                 <div class="tp-caption   tp-resizeme  disabled_lc tp-videolayer" id="slide-420-layer-13" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-whitespace="nowrap"
-                                    data-type="video" data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                    data-videocontrols="none" data-videowidth="100%" data-videoheight="360px" data-videoposter="images/immigration.webp" data-videomp4="plugins/slider-revolution/assets/videos/vid1.mp4" data-noposteronmobile="off"
+                                      data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                    data-videocontrols="none" data-videowidth="100%" data-videoheight="360px" data-videoposter="images/immigration.webp"   data-noposteronmobile="off"
                                     data-videopreload="auto" data-videoloop="loop" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']"
                                     data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-autoplay="off" style="z-index: 6;"> </div>
                                 <!-- LAYER NR. 3 -->
@@ -474,8 +869,8 @@
                                 data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; min-width: #1/3#px; max-width: #1/3#px; max-width: 360px; max-width: 360px; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Open Sans;">
                                 <!-- LAYER NR. 7 -->
                                 <div class="tp-caption   tp-resizeme  disabled_lc tp-videolayer" id="slide-420-layer-17" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-whitespace="nowrap"
-                                    data-type="video" data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                    data-videocontrols="none" data-videowidth="100%" data-videoheight="360px" data-videoposter="images/slider/service-business-immigration.webp" data-videomp4="plugins/slider-revolution/assets/videos/vid2.mp4" data-noposteronmobile="off"
+                                      data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                    data-videocontrols="none" data-videowidth="100%" data-videoheight="360px" data-videoposter="images/slider/service-business-immigration.webp"   data-noposteronmobile="off"
                                     data-videopreload="auto" data-videoloop="loop" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']"
                                     data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-autoplay="off" style="z-index: 11;"> </div>
                                 <!-- LAYER NR. 8 -->
@@ -502,8 +897,8 @@
                                 data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 15; min-width: #1/3#px; max-width: #1/3#px; max-width: 360px; max-width: 360px; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Open Sans;">
                                 <!-- LAYER NR. 12 -->
                                 <div class="tp-caption   tp-resizeme  disabled_lc tp-videolayer" id="slide-420-layer-23" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-whitespace="nowrap"
-                                    data-type="video" data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                    data-videocontrols="none" data-videowidth="100%" data-videoheight="360px" data-videoposter="images/litigation.webp" data-videomp4="plugins/slider-revolution/assets/videos/vid3.mp4" data-noposteronmobile="off"
+                                      data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                    data-videocontrols="none" data-videowidth="100%" data-videoheight="360px" data-videoposter="images/litigation.webp"   data-noposteronmobile="off"
                                     data-videopreload="auto" data-videoloop="loop" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']"
                                     data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-autoplay="off" style="z-index: 16;"> </div>
                                 <!-- LAYER NR. 13 -->
@@ -546,8 +941,8 @@
                                 data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; min-width: #1/3#px; max-width: #1/3#px; max-width: 360px; max-width: 360px; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Open Sans;">
                                 <!-- LAYER NR. 2 IMAGE -->
                                 <div class="tp-caption   tp-resizeme  disabled_lc tp-videolayer" id="slide-420-layer-132" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-whitespace="nowrap"
-                                    data-type="video" data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                    data-videocontrols="none" data-videowidth="100%" data-videoheight="360px" data-videoposter="images/businesslaw.webp" data-videomp4="plugins/slider-revolution/assets/videos/vid1.mp4" data-noposteronmobile="off"
+                                      data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                    data-videocontrols="none" data-videowidth="100%" data-videoheight="360px" data-videoposter="images/businesslaw.webp"   data-noposteronmobile="off"
                                     data-videopreload="auto" data-videoloop="loop" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']"
                                     data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-autoplay="off" style="z-index: 6;"> </div>
                                 <!-- LAYER NR. 3 SHADOW -->
@@ -574,8 +969,8 @@
                                 data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; min-width: #1/3#px; max-width: #1/3#px; max-width: 360px; max-width: 360px; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Open Sans;">
                                 <!-- LAYER NR. 7 -->
                                 <div class="tp-caption   tp-resizeme  disabled_lc tp-videolayer" id="slide-420-layer-17" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-whitespace="nowrap"
-                                    data-type="video" data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                    data-videocontrols="none" data-videowidth="100%" data-videoheight="360px" data-videoposter="plugins/slider-revolution/assets/images/vid2.jpg" data-videomp4="plugins/slider-revolution/assets/videos/vid2.mp4" data-noposteronmobile="off"
+                                      data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                    data-videocontrols="none" data-videowidth="100%" data-videoheight="360px" data-videoposter="plugins/slider-revolution/assets/images/vid2.jpg"   data-noposteronmobile="off"
                                     data-videopreload="auto" data-videoloop="loop" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']"
                                     data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-autoplay="off" style="z-index: 11;"> </div>
                                 <!-- LAYER NR. 8 -->
@@ -602,8 +997,8 @@
                                 data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 15; min-width: #1/3#px; max-width: #1/3#px; max-width: 360px; max-width: 360px; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Open Sans;">
                                 <!-- LAYER NR. 12 -->
                                 <div class="tp-caption   tp-resizeme  disabled_lc tp-videolayer" id="slide-420-layer-232" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-whitespace="nowrap"
-                                    data-type="video" data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                    data-videocontrols="none" data-videowidth="100%" data-videoheight="360px" data-videoposter="images/mexicanlaw.webp" data-videomp4="plugins/slider-revolution/assets/videos/vid3.mp4" data-noposteronmobile="off"
+                                      data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                    data-videocontrols="none" data-videowidth="100%" data-videoheight="360px" data-videoposter="images/mexicanlaw.webp"   data-noposteronmobile="off"
                                     data-videopreload="auto" data-videoloop="loop" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']"
                                     data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-autoplay="off" style="z-index: 16;"> </div>
                                 <!-- LAYER NR. 13 -->
@@ -650,7 +1045,9 @@
             </div>
         </section>
         <!-- end: IMAGE BLOCK -->
-      
+
+
+       
         <!-- BLOG -->
         <section id="section-blog" class="p-t-150 p-b-100 background-grey">
 
@@ -751,62 +1148,165 @@
     <!-- END REVOLUTION SLIDER -->
 
     <!-- CALL TO ACTION -->
-    <section style="background-image: url('images/backgroundgrey.png');">
-
-        <div class="container">
-            <div class="heading-text heading-section text-center m-b-40">
-                <h2>Connect with Our Legal Experts</h2>
+    <div id="featured_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="goodnews-featured" data-source="gallery" style="margin:0px auto;background:#E2E1DA;padding:0px;margin-top:0px;margin-bottom:0px;">
+        <!-- START REVOLUTION SLIDER 5.4.3.1 fullwidth mode -->
+        <div id="featured" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.3.1">
+            <ul>
+                <!-- SLIDE  -->
+                <li data-index="rs-908" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <!-- MAIN IMAGE -->
+                    <img src="https://revolutioncdn-themepunchgbr.netdna-ssl.com/wp-content/uploads/revslider/gnfeatured/blurbg-2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="6" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+                    <div id="rrzt_908" class="rev_row_zone rev_row_zone_top" style="z-index: 5;">
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption  " id="slide-908-layer-5" data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']" data-y="['top','top','top','top']" data-voffset="['100','100','100','100']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="row" data-columnbreak="2" data-basealign="slide" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-margintop="[250,70,70,70]" data-marginright="[0,0,0,0]" data-marginbottom="[250,60,60,60]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[65,75,50,50]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[65,75,50,50]" style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;">
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption  mt-4 mg-lg-0 mt-md-0" id="slide-908-layer-6" data-x="['left','left','left','left']" data-hoffset="['0','100','0','0']" data-y="['top','top','top','top']" data-voffset="['0','100','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="column" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":"+0","speed":750,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-bgopacity="1" data-columnwidth="66.67%" data-verticalalign="bottom" data-margintop="[0,0,0,0]" data-marginright="[15,5,0,0]" data-marginbottom="[0,0,30,30]" data-marginleft="[15,5,0,0]" data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; background: url('images/desk2.webp') no-repeat center center; background-size: cover; width: 100%;">
+                                <!-- LAYER NR. 3 -->
+                                <div class="tp-caption   tp-resizeme" id="slide-908-layer-11" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="100%" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-margintop="[0,200,150,150]" data-marginright="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['center','center','center','center']" data-paddingtop="[40,40,40,40]" data-paddingright="[20,20,20,20]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[20,20,20,20]" style="z-index: 8; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 15px; line-height: 15px; font-weight: 600; color: white; letter-spacing: 2px; margin-bottom: 20px !important; display: inline-block;font-family:Poppins;">TRAVEL </div>
+                                <!-- LAYER NR. 4 -->
+                              <a href="#" class="btn btn-outline btn-light mb-4" ><span>learn more about your needs</span></a>
+                                 
+                            </div>
+                            <!-- LAYER NR. 5 -->
+                            <div class="tp-caption  " id="slide-908-layer-7" data-x="['left','left','left','left']" data-hoffset="['370','347','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','321','321']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="column" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":"+0","speed":750,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-bgopacity="1" data-columnwidth="33.33%" data-verticalalign="bottom" data-margintop="[0,0,0,0]" data-marginright="[15,5,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[15,5,0,0]" data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; background: url('https://revolution.themepunch.com/wp-content/') no-repeat center center; background-size: cover; width: 100%;background-color:#334F6E;">
+                                <!-- LAYER NR. 6 -->
+                                <div class="tp-caption   tp-resizeme" id="slide-908-layer-13" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','bottom','bottom','bottom']" data-voffset="['0','170','140','120']" data-width="100%" data-height="none" data-whitespace="normal" data-type="text" data-basealign="slide" data-responsive_offset="off" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-margintop="[50,50,50,50]" data-marginright="[0,0,0,0]" data-marginbottom="[20,20,20,20]" data-marginleft="[0,0,0,0]" data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[30,20,30,20]" data-paddingbottom="[5,5,5,5]" data-paddingleft="[30,20,30,20]" style="z-index: 10; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 35px; line-height: 35px; font-weight: 400; color: #E2E1DA; letter-spacing: 0px; display: inline-block;font-family:sans-serif;">Let’s start the conv! </div>
+                                <!-- LAYER NR. 7 -->
+                                <a class="tp-caption rev-btn " href="https://api.whatsapp.com" target="_blank" id="slide-908-layer-15" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-lineheight="['36','36','40','40']" data-color="['#e2e1ba','#e2e1ba','#e2e1ba','#e2e1ba']" data-width="none" data-height="none" data-whitespace="normal" data-type="button" data-actions='' data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:#334f6e;bg:#e2e1ba;"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[35,35,35,35]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[35,35,35,35]" style="z-index: 12; white-space: normal; font-size: 17px; line-height: 36px; font-weight: 500; color: #e2e1ba; letter-spacing: px; display: inline-block;font-family:sans-serif;border-color:#e2e1ba;border-style:solid;border-width:2px 2px 2px 2px;border-radius:5px 5px 5px 5px;cursor:pointer;text-decoration: none;">Open WhatsApp</a>
+                                <!-- LAYER NR. 8 -->
+                                <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-908-layer-16" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="full" data-height="15" data-whitespace="normal" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13; display: block;"> </div>
+                                <!-- LAYER NR. 9 -->
+                                <div class="tp-caption   tp-resizeme" id="slide-908-layer-14" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="none" data-height="none" data-whitespace="normal" data-type="image" data-responsive_offset="on" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; display: inline-block;"><img src="images/whatsapp.webp" alt="" data-ww="['100%','100%','100%','85%']" data-hh="" width="800" height="413" data-no-retina> </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div style="" class="tp-static-layers">
+                <!-- LAYER NR. 10 -->
+                <div class="tp-caption   tp-static-layer" id="slider-322-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['20','50','7','20']" data-fontsize="['15','15','12','12']" data-lineheight="['38','38','28','28']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="off" data-responsive="off" data-startslide="-1" data-endslide="-1" data-frames='[{"delay":0,"speed":750,"sfxcolor":"#ffffff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[2,2,2,2]" data-paddingright="[40,40,30,30]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[42,42,32,32]" style="z-index: 5; white-space: nowrap; font-size: 15px; line-height: 38px; font-weight: 600; color: #E2E1DA; letter-spacing: 2px;font-family:Poppins;background-color:#334F6E;">We want to hear from you! </div>
             </div>
-            </div>
-            <div class="row m-t-60">
-                <div class="col-lg-6 text-end">
-                    <h2>SCHEDULE YOUR CONSULTATION!</h2>
-                    <span class="lead">Ready to discuss your case? Schedule a consultation with us via Calendly.</span>
-                    <a href="#" class="btn btn-outline btn-dark"><span>BOOK NOW</span></a>
-                </div>
-                <div class="col-lg-6 text-start">
-                    <h2>CONNECT WITH US ON WhatsApp</h2>
-                    <span class="lead">Have questions or need immediate assistance? Chat with us on WhatsApp.</span>
-                    <a href="#" class="btn btn-outline btn-dark"><span>START CHATTING</span></a>
-                </div>
-            </div>
+            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
         </div>
-    </section>
+    </div>
     <!-- end: HISTORY -->
 
-        <!-- Testimonial Carousel -->
-    <section>
-        <div class="container">
-            <!-- Testimonials -->
-            <div class="carousel arrows-visibile testimonial testimonial-single testimonial-left" data-items="1" data-autoplay="true" data-loop="true" data-autoplay="3500">
-                <!-- Testimonials item -->
-                <div class="testimonial-item">
-                    <img src="images/team/9.jpg" alt="">
-                    <p>Polo is by far the most amazing template out there! I literally could not be happier that I chose to buy this template!</p>
-                    <span>Alan Monre</span>
-                    <span>CEO, Square Software</span>
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="container">
+                <div class="row gap-y">
+                    <div class="col-md-6 col-xl-4">
+                        <p>
+                            <a href="#"><img src="images/small logo.png" alt="logo"></a>
+                        </p>
+                        <p>To design is to discover relationships and to make arrangements and rearrangements among these ingredients.</p>
+                    </div>
+                    <div class="col-6 col-md-3 col-xl-2">
+                        <!-- Footer widget area 1 -->
+                        <div class="widget">
+                            <h4>COMPANY</h4>
+                            <ul class="list">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Resources</a></li>
+                            </ul>
+                        </div>
+                        <!-- end: Footer widget area 1 -->
+                    </div>
+                    <div class="col-6 col-md-3 col-xl-2">
+                        <!-- Footer widget area 2 -->
+                        <div class="widget">
+                            <h4>SERVICES</h4>
+                            <ul class="list">
+                                <li><a href="#">Immigration</a></li>
+                                <li><a href="#">Business Immigration</a></li>
+                                <li><a href="#">Civil Ligitation</a></li>
+                                <li><a href="#">Business Law</a></li>
+                                <li><a href="#">Mexican & Int'l Law</a></li>
+                            </ul>
+                        </div>
+                        <!-- end: Footer widget area 2 -->
+                    </div>
+                    <div class="col-6 col-md-6 col-xl-2">
+                        <!-- Footer widget area 3 -->
+                        <div class="widget">
+                            <h4>CONTACT US</h4>
+                            <ul class="list">
+                                <li><a href="#">WhatsApp</a></li>
+                                <li><a href="#">Email</a></li>
+                                <li><a href="#">Call</a></li>
+                                <li><a href="#">Book</a></li>
+            
+                            </ul>
+                        </div>
+                        <!-- end: Footer widget area 3 -->
+                    </div>
+                    <div class="col-5 col-md-6 col-xl-2">
+                       
+                        <!-- Social icons -->
+                        <h4>FOLLOW US</h4>
+                        <div class="social-icons social-icons-colored-hover">
+                            <ul>
+                            <li class="social-facebook"><a href="https://www.facebook.com/profile.php?id=61561104335631"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="social-yahoo"><a href="https://www.instagram.com/santana_law_group/"><i class="fab fa-instagram"></i>
+                            <li class="social-facebook"><a href=""><i class="fab fa-linkedin"></i></a></li> <br>
+                            <li class="social-youtube"><a href=" https://youtube.com/@santanalawgroup?feature=shared "><i class="fab fa-youtube"></i></a></li>
+                            <li class="social-xing"><a href="https://api.whatsapp.com/send/?phone=15125845040&text&type=phone_number&app_absent=0"><i class="fab fa-whatsapp"></i> 
+                            </ul>
+                        </div>
+                        <!-- end: Social icons -->
+                    </div>
                 </div>
-                <!-- end: Testimonials item-->
-                <!-- Testimonials item -->
-                <div class="testimonial-item">
-                    <img src="images/team/9.jpg" alt="">
-                    <p>Polo is by far the most amazing template out there! I literally could not be happier that I chose to buy this template!</p>
-                    <span>Alan Monre</span>
-                    <span>CEO, Square Software</span>
-                </div>
-                <!-- end: Testimonials item-->
-                <!-- Testimonials item -->
-                <div class="testimonial-item">
-                    <img src="images/team/9.jpg" alt="">
-                    <p>The world is a dangerous place to live; not because of the people who are evil, but because of the people who don't do anything about it.</p>
-                    <span>Alan Monre</span>
-                    <span>CEO, Square Software</span>
-                </div>
-                <!-- end: Testimonials item-->
-            </div>        
-            <!-- end: Testimonials -->
+            </div>
         </div>
-    </section>
+        <div class="copyright-content">
+            <div class="container">
+                <div class="copyright-text text-center">&copy; Santana Law Group, PLLC. All Rights Reserved.<a href="#" target="_blank" rel="noopener" data-bs-toggle="modal" data-bs-target="#exampleModal"> DISCLAIMER</a> </div>
+            </div>
+        </div>
+    
+    
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog " style="width:80% ;">
+              <div class="modal-content">
+                <div class="modal-header d-flex">
+                </div>
+                <div class="modal-body">
+                  <h3 class="text-center m-0 fw-700">LEGAL DISCLAIMER FOR</h3>   
+                  <a href="#" class="fs-20 fw-700 d-block text-center underline" style="color: #467886;"> www.gracegsantana.com</a>   
+                  <p class="mt-3">The information provided on the Santana Law Group, PLLC website is for general informational purposes only and should not be construed as legal advice on any subject matter. The content on this site is intended to provide general information about our firm and the services we offer. While we strive to keep the information accurate and up-to-date, we make no guarantees or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose.</p>
+                  <p class=" fs-18 d-block underline"> www.gracegsantana.com</p>   
+                    <p>The use of this website and the transmission or receipt of information through this website does not create an attorney-client relationship between you and Santana Law Group, PLLC. Any communication through this website or via email is not secure and does not establish an attorney-client relationship. If you are seeking legal advice, please contact us directly to schedule a consultation with one of our attorneys.</p>
+                    <p class="underline fs-18">Confidentiality</p>
+                    <p>Do not send any confidential information to us until such time as an attorney-client relationship has been established. Any information sent to us before an attorney-client relationship has been formally established may not be treated as confidential and may not be protected by attorney-client privilege.</p>
+                    <p class="fs-18 underline">Third-Party Links</p>
+                    <p>Our website may contain links to third-party websites for your convenience. Santana Law Group, PLLC does not endorse or assume any responsibility for the content, policies, or practices of any third-party websites. We encourage you to review the terms and privacy policies of any websites you visit.</p>
+                    <p class="underline fs-18 ">Legal Advertising</p>
+                    <p>This website may be considered advertising under the rules of professional conduct applicable to attorneys in Texas and other jurisdictions where our attorneys are licensed to practice. Prior results do not guarantee a similar outcome.</p>
+                    <p class="underline fs-18 ">Changes to This Disclaimer</p>
+                    <p>Santana Law Group, PLLC reserves the right to change this disclaimer at any time. Any changes will be posted on this page, and it is your responsibility to review this page periodically to be aware of any changes.</p>
+                    <p class="underline fs-18 ">Contact Information</p>
+                    <p>If you have any questions about this disclaimer, please contact us at:</p>
+                    <p>Santana Law Group, PLLC <br>
+                        500 W. 2nd St., Suite 1900, <br>
+                        Austin, Tx 78701 <br>
+                        (512) 584 - 5040 <br>
+                        hello@gracegsantana.com <br>
+                        </p>
+    
+                        <p>By using this website, you acknowledge that you have read, understood, and agreed to be bound by this disclaimer.</p>
+    
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline  btn-light" data-bs-dismiss="modal" style="border: solid 1px #334f6e;">ok</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </footer>
+        <!-- Testimonial Carousel -->
     <!-- end: Testimonial Carousel -->
 
             <script type="text/javascript">
@@ -1652,13 +2152,7 @@
     <!-- end: Body Inner -->
 
    <!-- Footer -->
-   <footer id="footer">
-        <div class="copyright-content">
-            <div class="container">
-                <div class="copyright-text text-center">&copy; Santana Law Group, PLLC. All Rights Reserved.<a href="#" target="_blank" rel="noopener"> DISCLAIMER</a> </div>
-            </div>
-        </div>
-    </footer>
+  
 <!-- end: Footer -->
 
 
