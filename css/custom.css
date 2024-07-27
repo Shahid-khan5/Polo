@@ -70,4 +70,21 @@
     .mt-30{
 margin-top: 30px !important;
     }
+    div#slide-3204-layer-4{
+        height: 50px !important;
+    }
+    div#slide-3205-layer-4{
+        height: 50px !important;
+    }
+    div#slide-3206-layer-4{
+        height: 50px !important;
+    }
+    .modal.show .modal-dialog{
+        min-width: 100% !important;
+        max-width: 100% !important;
+    }
+    .modal-dialog{
+    max-width:100% !important;
+    min-width: 100% !important;
+}
 }
