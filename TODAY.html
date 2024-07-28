@@ -17,17 +17,25 @@
     <!-- LOAD JQUERY LIBRARY -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
     <!-- LOADING FONTS AND ICONS -->
     <link href="https://fonts.googleapis.com/css?family=Rubik:500%2C400%2C700" rel="stylesheet" property="stylesheet" type="text/css" media="all">
-    <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/fonts/font-awesome/css/font-awesome.css">
     <!-- REVOLUTION STYLE SHEETS -->
     <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/css/settings.css">
     <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/css/layers.css">
     <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/css/navigation.css">
-    <script src="https://kit.fontawesome.com/cc00d27b50.js" crossorigin="anonymous"></script>
-
+     <!-- REVOLUTION JS FILES -->
+     <script type="text/javascript" src="plugins/slider-revolution/js/jquery.themepunch.tools.min.js"></script>
+     <script type="text/javascript" src="plugins/slider-revolution/js/jquery.themepunch.revolution.min.js"></script>
+     <!-- SLICEY ADD-ON FILES -->
+     <script type='text/javascript' src='plugins/slider-revolution/revolution-addons/slicey/js/revolution.addon.slicey.min.js?ver=1.0.0'></script>
+     <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+     <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.actions.min.js"></script>
+     <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+     <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+     <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+     <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+     <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.video.min.js"></script>
+ 
     <style type="text/css">
 
 .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl{
@@ -67,8 +75,6 @@
     margin: 40px 0 !important;
     padding:0 20px !important;
 }
-    </style>
-    <style type="text/css">
         .tp-tab-mask, .tp-thumb-mask {
     box-sizing: border-box !important;
     max-height: 540px !important;
@@ -153,23 +159,7 @@ div#exampleModal {
 }
 }
     </style>
-    <!-- REVOLUTION JS FILES -->
-
-    <script type="text/javascript" src="plugins/slider-revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <!-- SLICEY ADD-ON FILES -->
-    <script type='text/javascript' src='plugins/slider-revolution/revolution-addons/slicey/js/revolution.addon.slicey.min.js?ver=1.0.0'></script>
-    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.video.min.js"></script>
-</head>
+   </head>
 
 <body>
      <!-- Body Inner -->
@@ -929,11 +919,7 @@ div#exampleModal {
                 </div>
             </div>
         </section>
-        <!-- BLOG -->
-
-        <!-- HISTORY -->
         <!-- END REVOLUTION SLIDER -->
-
 			<!-- FEATURED -->
 			<div id="featured_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="goodnews-featured" data-source="gallery" style="margin:0px auto;background:#E2E1DA;padding:0px;margin-top:0px;margin-bottom:0px;">
 				<!-- START REVOLUTION SLIDER 5.4.3.1 fullwidth mode -->
@@ -977,77 +963,6 @@ div#exampleModal {
 					<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
 				</div>
 			</div>
-            
-            <!-- END REVOLUTION SLIDER -->
-
-			
-
-
-            <script type="text/javascript">
-                var tpj = jQuery;
-                var revapi24;
-                tpj(document).ready(function() {
-                    if (tpj("#rev_slider_24_1").revolution == undefined) {
-                        revslider_showDoubleJqueryError("#rev_slider_24_1");
-                    } else {
-                        revapi24 = tpj("#rev_slider_24_1").show().revolution({
-                            sliderType: "standard",
-                            jsFileLocation: "revolution/js/",
-                            sliderLayout: "fullscreen",
-                            dottedOverlay: "none",
-                            delay: 9000,
-                            navigation: {
-                                keyboardNavigation: "off",
-                                keyboard_direction: "horizontal",
-                                mouseScrollNavigation: "off",
-                                mouseScrollReverse: "default",
-                                onHoverStop: "off",
-                                bullets: {
-                                    enable: true,
-                                    hide_onmobile: false,
-                                    style: "bullet-bar",
-                                    hide_onleave: false,
-                                    direction: "horizontal",
-                                    h_align: "center",
-                                    v_align: "bottom",
-                                    h_offset: 0,
-                                    v_offset: 50,
-                                    space: 5,
-                                    tmp: ''
-                                }
-                            },
-                            responsiveLevels: [1240, 1024, 778, 480],
-                            visibilityLevels: [1240, 1024, 778, 480],
-                            gridwidth: [1240, 1024, 778, 480],
-                            gridheight: [868, 768, 960, 720],
-                            lazyType: "none",
-                            shadow: 0,
-                            spinner: "off",
-                            stopLoop: "off",
-                            stopAfterLoops: -1,
-                            stopAtSlide: -1,
-                            shuffle: "off",
-                            autoHeight: "off",
-                            fullScreenAutoWidth: "off",
-                            fullScreenAlignForce: "off",
-                            fullScreenOffsetContainer: "",
-                            fullScreenOffset: "0px",
-                            hideThumbsOnMobile: "off",
-                            hideSliderAtLimit: 0,
-                            hideCaptionAtLimit: 0,
-                            hideAllCaptionAtLilmit: 0,
-                            debugMode: false,
-                            fallbacks: {
-                                simplifyAll: "off",
-                                nextSlideOnWindowFocus: "off",
-                                disableFocusListener: false,
-                            }
-                        });
-                    }
-                    if (revapi24) revapi24.revSliderSlicey();
-                }); /*ready*/
-            </script>
-
             <script type="text/javascript">
                 var tpj = jQuery;
                 tpj(document).ready(function() {
@@ -1477,299 +1392,6 @@ div#exampleModal {
                     });
                 });
             </script>
-
-            <script type="text/javascript">
-                var tpj = jQuery;
-                tpj(document).ready(function() {
-                    tpj("#start").show().revolution({
-                        sliderType: "hero",
-                        jsFileLocation: "plugins/slider-revolution/js/",
-                        sliderLayout: "fullscreen",
-                        dottedOverlay: "none",
-                        delay: 9000,
-                        navigation: {},
-                        responsiveLevels: [1240, 1024, 778, 480],
-                        visibilityLevels: [1240, 1024, 778, 480],
-                        gridwidth: [1240, 1024, 778, 480],
-                        gridheight: [800, 768, 700, 700],
-                        lazyType: "none",
-                        parallax: {
-                            type: "scroll",
-                            origo: "slidercenter",
-                            speed: 300,
-                            levels: [15, 16, 17, 18, 19, 20, -10, -20, -30, -40, -50, -60, 15, 10, 100, 55],
-                            type: "scroll",
-                        },
-                        shadow: 0,
-                        spinner: "off",
-                        autoHeight: "off",
-                        fullScreenAutoWidth: "off",
-                        fullScreenAlignForce: "off",
-                        fullScreenOffsetContainer: "",
-                        fullScreenOffset: "",
-                        disableProgressBar: "on",
-                        hideThumbsOnMobile: "off",
-                        hideSliderAtLimit: 0,
-                        hideCaptionAtLimit: 0,
-                        hideAllCaptionAtLilmit: 0,
-                        debugMode: false,
-                        fallbacks: {
-                            simplifyAll: "off",
-                            disableFocusListener: false,
-                        }
-                    });
-                    tpj("#about").show().revolution({
-                        sliderType: "standard",
-                        jsFileLocation: "plugins/slider-revolution/js/",
-                        sliderLayout: "fullscreen",
-                        dottedOverlay: "none",
-                        delay: 9000,
-                        navigation: {
-                            onHoverStop: "off",
-                        },
-                        viewPort: {
-                            enable: true,
-                            outof: "wait",
-                            visible_area: "50%",
-                            presize: false
-                        },
-                        responsiveLevels: [1240, 1024, 778, 480],
-                        visibilityLevels: [1240, 1024, 778, 480],
-                        gridwidth: [1240, 1024, 778, 480],
-                        gridheight: [800, 768, 700, 700],
-                        lazyType: "single",
-                        parallax: {
-                            type: "scroll",
-                            origo: "slidercenter",
-                            speed: 300,
-                            levels: [15, 16, 17, 18, 19, 20, -10, -20, -30, -40, -50, -60, 25, 30, 100, 55],
-                            type: "scroll",
-                        },
-                        shadow: 0,
-                        spinner: "off",
-                        stopLoop: "on",
-                        stopAfterLoops: 0,
-                        stopAtSlide: 1,
-                        shuffle: "off",
-                        autoHeight: "off",
-                        fullScreenAutoWidth: "off",
-                        fullScreenAlignForce: "off",
-                        fullScreenOffsetContainer: "",
-                        fullScreenOffset: "",
-                        disableProgressBar: "on",
-                        hideThumbsOnMobile: "off",
-                        hideSliderAtLimit: 0,
-                        hideCaptionAtLimit: 0,
-                        hideAllCaptionAtLilmit: 0,
-                        debugMode: false,
-                        fallbacks: {
-                            simplifyAll: "off",
-                            nextSlideOnWindowFocus: "off",
-                            disableFocusListener: false,
-                        }
-                    });
-                    tpj("#services").show().revolution({
-                        sliderType: "standard",
-                        jsFileLocation: "plugins/slider-revolution/js/",
-                        sliderLayout: "fullscreen",
-                        dottedOverlay: "none",
-                        delay: 9000,
-                        navigation: {
-                            keyboardNavigation: "off",
-                            keyboard_direction: "vertical",
-                            mouseScrollNavigation: "off",
-                            mouseScrollReverse: "default",
-                            onHoverStop: "off",
-                            touch: {
-                                touchenabled: "on",
-                                swipe_threshold: 75,
-                                swipe_min_touches: 1,
-                                swipe_direction: "horizontal",
-                                drag_block_vertical: false
-                            }
-                        },
-                        viewPort: {
-                            enable: true,
-                            outof: "wait",
-                            visible_area: "50%",
-                            presize: false
-                        },
-                        responsiveLevels: [1240, 1024, 778, 480],
-                        visibilityLevels: [1240, 1024, 778, 480],
-                        gridwidth: [1240, 1024, 778, 480],
-                        gridheight: [800, 768, 700, 700],
-                        lazyType: "single",
-                        parallax: {
-                            type: "scroll",
-                            origo: "slidercenter",
-                            speed: 300,
-                            levels: [15, 16, 17, 18, 19, 20, -10, -20, -30, -40, -50, -60, 15, 10, 100, 55],
-                            type: "scroll",
-                        },
-                        shadow: 0,
-                        spinner: "off",
-                        stopLoop: "on",
-                        stopAfterLoops: 0,
-                        stopAtSlide: 1,
-                        shuffle: "off",
-                        autoHeight: "off",
-                        fullScreenAutoWidth: "off",
-                        fullScreenAlignForce: "off",
-                        fullScreenOffsetContainer: "",
-                        fullScreenOffset: "",
-                        disableProgressBar: "on",
-                        hideThumbsOnMobile: "off",
-                        hideSliderAtLimit: 0,
-                        hideCaptionAtLimit: 0,
-                        hideAllCaptionAtLilmit: 0,
-                        debugMode: false,
-                        fallbacks: {
-                            simplifyAll: "off",
-                            nextSlideOnWindowFocus: "off",
-                            disableFocusListener: false,
-                        }
-                    });
-                    tpj("#products").show().revolution({
-                        sliderType: "standard",
-                        jsFileLocation: "plugins/slider-revolution/js/",
-                        sliderLayout: "fullscreen",
-                        dottedOverlay: "none",
-                        delay: 9000,
-                        navigation: {
-                            keyboardNavigation: "off",
-                            keyboard_direction: "vertical",
-                            mouseScrollNavigation: "off",
-                            mouseScrollReverse: "default",
-                            onHoverStop: "off",
-                            thumbnails: {
-                                style: "gyges",
-                                enable: true,
-                                width: 100,
-                                height: 70,
-                                min_width: 100,
-                                wrapper_padding: 5,
-                                wrapper_color: "transparent",
-                                wrapper_opacity: "1",
-                                tmp: '<span class="tp-thumb-img-wrap">  <span class="tp-thumb-image"></span></span>',
-                                visibleAmount: 5,
-                                hide_onmobile: false,
-                                hide_onleave: false,
-                                direction: "horizontal",
-                                span: false,
-                                position: "inner",
-                                container: "layergrid",
-                                space: 5,
-                                h_align: "left",
-                                v_align: "bottom",
-                                h_offset: 5,
-                                v_offset: 20
-                            }
-                        },
-                        viewPort: {
-                            enable: true,
-                            outof: "wait",
-                            visible_area: "50%",
-                            presize: false
-                        },
-                        responsiveLevels: [1240, 1024, 778, 480],
-                        visibilityLevels: [1240, 1024, 778, 480],
-                        gridwidth: [1240, 1024, 778, 480],
-                        gridheight: [800, 768, 700, 700],
-                        lazyType: "single",
-                        parallax: {
-                            type: "scroll",
-                            origo: "slidercenter",
-                            speed: 300,
-                            levels: [15, 16, 17, 18, 19, 20, -10, -20, -30, -40, -50, -60, 15, 10, 100, 55],
-                            type: "scroll",
-                        },
-                        shadow: 0,
-                        spinner: "off",
-                        stopLoop: "on",
-                        stopAfterLoops: 0,
-                        stopAtSlide: 1,
-                        shuffle: "off",
-                        autoHeight: "off",
-                        fullScreenAutoWidth: "off",
-                        fullScreenAlignForce: "off",
-                        fullScreenOffsetContainer: "",
-                        fullScreenOffset: "",
-                        disableProgressBar: "on",
-                        hideThumbsOnMobile: "off",
-                        hideSliderAtLimit: 0,
-                        hideCaptionAtLimit: 0,
-                        hideAllCaptionAtLilmit: 0,
-                        debugMode: false,
-                        fallbacks: {
-                            simplifyAll: "off",
-                            nextSlideOnWindowFocus: "off",
-                            disableFocusListener: false,
-                        }
-                    });
-                    tpj("#testimonials").show().revolution({
-                        sliderType: "standard",
-                        jsFileLocation: "plugins/slider-revolution/js/",
-                        sliderLayout: "fullscreen",
-                        dottedOverlay: "none",
-                        delay: 9000,
-                        navigation: {
-                            keyboardNavigation: "off",
-                            keyboard_direction: "vertical",
-                            mouseScrollNavigation: "off",
-                            mouseScrollReverse: "default",
-                            onHoverStop: "off",
-                            touch: {
-                                touchenabled: "on",
-                                swipe_threshold: 75,
-                                swipe_min_touches: 1,
-                                swipe_direction: "horizontal",
-                                drag_block_vertical: false
-                            }
-                        },
-                        viewPort: {
-                            enable: true,
-                            outof: "wait",
-                            visible_area: "50%",
-                            presize: false
-                        },
-                        responsiveLevels: [1240, 1024, 778, 480],
-                        visibilityLevels: [1240, 1024, 778, 480],
-                        gridwidth: [1240, 1024, 778, 480],
-                        gridheight: [800, 768, 700, 700],
-                        lazyType: "none",
-                        parallax: {
-                            type: "scroll",
-                            origo: "slidercenter",
-                            speed: 300,
-                            levels: [20, 25, 30, 35, 40, 45, 50, -10, -15, -20, -25, -30, -35, -40, -45, 55],
-                            type: "scroll",
-                        },
-                        shadow: 0,
-                        spinner: "off",
-                        stopLoop: "on",
-                        stopAfterLoops: 0,
-                        stopAtSlide: 1,
-                        shuffle: "off",
-                        autoHeight: "off",
-                        fullScreenAutoWidth: "off",
-                        fullScreenAlignForce: "off",
-                        fullScreenOffsetContainer: "",
-                        fullScreenOffset: "",
-                        disableProgressBar: "on",
-                        hideThumbsOnMobile: "off",
-                        hideSliderAtLimit: 0,
-                        hideCaptionAtLimit: 0,
-                        hideAllCaptionAtLilmit: 0,
-                        debugMode: false,
-                        fallbacks: {
-                            simplifyAll: "off",
-                            nextSlideOnWindowFocus: "off",
-                            disableFocusListener: false,
-                        }
-                    });
-                }); /*ready*/
-            </script>
-
             <script type="text/javascript">
                 var revapi322,
                     tpj = jQuery;
@@ -1941,12 +1563,8 @@ div#exampleModal {
       </div>
 </footer>
 <!-- end: Footer -->
-
-
     <!--Plugins-->
-    <!--<script src="js/jquery.js"></script>-->
     <script src="js/plugins.js"></script>
-    <!--Template functions-->
     <script src="js/functions.js"></script>
 </body>
 
